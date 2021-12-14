@@ -313,5 +313,17 @@
         "firmware_support": [
             "6.72"
         ]
+    },
+    "Hippie": {
+        "name": "Hippie",
+        "link": "https://hippie68.github.io/",
+        "owner": null,
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "7.02",
+            "7.50",
+            "7.55"
+        ]
     }
 }
