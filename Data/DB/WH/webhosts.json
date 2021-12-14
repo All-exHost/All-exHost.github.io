@@ -289,5 +289,19 @@
             "7.50",
             "7.55"
         ]
+    },
+    "PS4Xploit": {
+        "name": "PS4Xploit",
+        "link": "http://ps4xploit.zd.lu",
+        "owner": "https://twitter.com/nazkyyt",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "6.72",
+            "7.02",
+            "7.50",
+            "7.55",
+            "9.00"
+        ]
     }
 }
