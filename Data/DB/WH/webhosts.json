@@ -2,7 +2,7 @@
     "X Project": {
         "name": "X Project",
         "link": "https://www.consolehax.com/PS4/xproject/",
-        "owner": null,
+        "owner": "null",
         "visits": 49,
         "service": "Stop",
         "firmware_support": [
@@ -12,7 +12,7 @@
     "P30day": {
         "name": "P30day",
         "link": "https://ps4host.p30day.ir/702/index.html/",
-        "owner": null,
+        "owner": "null",
         "visits": 69,
         "service": "Stop",
         "firmware_support": [
@@ -22,7 +22,7 @@
     "Prb 755": {
         "name": "Prb 755",
         "link": "https://prb-borg.github.io/v3in/index.html/",
-        "owner": null,
+        "owner": "null",
         "visits": 239,
         "service": "Stop",
         "firmware_support": [
@@ -32,7 +32,7 @@
     "Prb 702": {
         "name": "Prb 702",
         "link": "https://prb-borg.github.io/7.02/",
-        "owner": null,
+        "owner": "null",
         "visits": 33,
         "service": "Stop",
         "firmware_support": [
@@ -302,6 +302,16 @@
             "7.50",
             "7.55",
             "9.00"
+        ]
+    },
+    "Gamer Hacker 672": {
+        "name": "Gamer Hacker 672",
+        "link": "https://gamerhack.github.io/ps4jb672/",
+        "owner": "null",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "6.72"
         ]
     }
 }
