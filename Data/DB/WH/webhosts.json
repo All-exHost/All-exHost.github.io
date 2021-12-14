@@ -138,7 +138,7 @@
     "Leeful v10": {
         "name": "Leeful v10",
         "link": "https://leeful.github.io/v10/",
-        "owner": null,
+        "owner": "null",
         "visits": 126,
         "service": "Run",
         "firmware_support": [
@@ -158,7 +158,7 @@
     "PS4 Metro": {
         "name": "PS4 Metro",
         "link": "https://metro70.neocities.org/",
-        "owner": null,
+        "owner": "null",
         "visits": 49,
         "service": "Run",
         "firmware_support": [
@@ -168,7 +168,7 @@
     "exploitOS": {
         "name": "exploitOS",
         "link": "https://exploitos.github.io/",
-        "owner": null,
+        "owner": "null",
         "visits": 61,
         "service": "Run",
         "firmware_support": [
@@ -209,7 +209,7 @@
     "PSGO": {
         "name": "PSGO",
         "link": "http://psgo.gitee.io/",
-        "owner": null,
+        "owner": "null",
         "visits": 226,
         "service": "Run",
         "firmware_support": [
@@ -221,7 +221,7 @@
     "Santa atmo": {
         "name": "Santa atmo",
         "link": "https://santa-atmo.ru/playstation-4/",
-        "owner": null,
+        "owner": "null",
         "visits": 194,
         "service": "Run",
         "firmware_support": [
@@ -234,7 +234,7 @@
     "GamerHack": {
         "name": "GamerHack",
         "link": "https://gamerhack.github.io/ps4jb702/",
-        "owner": null,
+        "owner": "null",
         "visits": 126,
         "service": "Run",
         "firmware_support": [
@@ -271,7 +271,7 @@
     "Gamer Hack 75x": {
         "name": "Gamer Hack 75x",
         "link": "https://gamerhack.github.io/ps4jb75x/",
-        "owner": null,
+        "owner": "null",
         "visits": 182,
         "service": "Run",
         "firmware_support": [
