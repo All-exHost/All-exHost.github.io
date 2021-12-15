@@ -325,5 +325,17 @@
             "7.50",
             "7.55"
         ]
+    },
+    "SonysNightmare": {
+        "name": "SonysNightmare",
+        "link": "https://sonysnightmare.github.io/PIRATA-HOST/",
+        "owner": "https://twitter.com/SonysNightmare",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "7.02",
+            "7.50",
+            "7.55"
+        ]
     }
 }
