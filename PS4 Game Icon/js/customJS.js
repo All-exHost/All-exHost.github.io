@@ -1,6 +1,6 @@
 function getImages(by = "") {
   var imageType = document.getElementById("imageType").value;
-  var imagesFolder = "https://github.com/All-exHost/All-exHost.github.io/tree/main/PS4%20Game%20Icon/images/" + imageType;
+  var imagesFolder = "images/" + imageType;
   var pathLen = imagesFolder.length;
   var iconSectionHeader = `<div class="u-expanded-width u-list u-list-2">
                               <div class="u-repeater u-repeater-2">`;
