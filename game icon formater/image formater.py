@@ -11,6 +11,8 @@ with open(path + "\\json.txt", "w+") as text:
                 edit = edit.replace("-", " ")
             if "'" in file:
                 edit = edit.replace("'", "")
+            if "~" in file:
+                edit = edit.replace("~", "")
             text.write('"' + edit + '",')
 
             os.rename(path + "\\" + file, path + "\\edited\\" + edit + ".png")
