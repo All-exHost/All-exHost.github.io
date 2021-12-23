@@ -63,7 +63,9 @@ function getImages(by = "") {
           imagesFolder +
           "/" +
           icon +
-          `.png" title="@OfficialAhmed"
+          `.png" title="` +
+          icon +
+          `"
               class="u-background-effect u-expanded">
               <img loading="lazy" src='` +
           imagesFolder +
