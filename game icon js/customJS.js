@@ -46,7 +46,7 @@ function getImages(by = "") {
               class="u-background-effect u-expanded">
               <img loading="lazy" src='` +
           imagesFolder +
-          "/" +
+          "/compressed/" +
           icon +
           `.png' class="u-background-effect-image u-expanded u-image u-image-contain">
               </a>
@@ -69,7 +69,7 @@ function getImages(by = "") {
               class="u-background-effect u-expanded">
               <img loading="lazy" src='` +
           imagesFolder +
-          "/" +
+          "/compressed/" +
           icon +
           `.png' class="u-background-effect-image u-expanded u-image u-image-contain">
               </a>
