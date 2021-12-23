@@ -1,0 +1,38 @@
+{
+    "3d": {
+        "iconName": [
+            "A Way Out",
+            "Abzu",
+            "Assassins Creed Odysey",
+            "Assassins Creed Origins 2",
+            "Assassins Creed Origins",
+            "Assassins Creed Syndicate",
+            "Assassins Creed Unity",
+            "Call Of Duty Black Ops 4",
+            "Call Of Duty Black Ops Ii",
+            "Call Of Duty Mw3",
+            "Call Of Duty Wwii (2)",
+            "Call Of Duty Wwii (3)",
+            "Call Of Duty Wwii (4)",
+            "Call Of Duty Wwii",
+            "Cities Skylines (2)",
+            "Cities Skylines",
+            "Crash N Sane Trilogy (2)",
+            "Crash N Sane Trilogy (3)",
+            "Crash N Sane Trilogy (4)",
+            "Crash N Sane Trilogy",
+            "Devil May Cry 4",
+            "Devil May Cry 5"
+        ]
+    },
+    "ps5": {
+        "iconName": [
+            "7 Days To Die"
+        ]
+    },
+    "cover": {
+        "iconName": [
+            "A Plague Tale Innocence"
+        ]
+    }
+}
