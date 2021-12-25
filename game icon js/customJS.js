@@ -20,7 +20,7 @@ function getImages(by = "") {
   var iconCounter = 0;
   var input = "";
 
-  if (by === "search") {
+  if (by === "search" || by === "typeChange") {
     // user searched something :)
     input = document.getElementById("searchInput").value;
     if (input.length >= 2 && input.length <= 12) {
