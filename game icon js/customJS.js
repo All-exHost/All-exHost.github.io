@@ -1,6 +1,6 @@
-function fetchJSON() {
+function fetchJSON(filePath) {
   var xmlFile = new XMLHttpRequest();
-  xmlFile.open("get", "game icon data/icons.json", false);
+  xmlFile.open("get", filePath, false);
   xmlFile.send();
   var xmlDoc = xmlFile.responseText;
   const data = JSON.parse(xmlDoc);
@@ -9,26 +9,37 @@ function fetchJSON() {
 }
 
 function getImages(by = "") {
-  var imageType = document.getElementById("imageType").value;
-  var imagesFolder = "game icon images/" + imageType;
+  const iconType = document.getElementById("iconType").value;
+  const imagesFolder = "game icon images/" + iconType;
 
-  var iconSectionHeader = `<div class="u-expanded-width u-list u-list-2">
-                              <div class="u-repeater u-repeater-2">`;
-  var iconSectionFooter = `</div>
-                              </div>`;
+  const iconSectionHeader = `<div class="u-expanded-width u-list u-list-2"> <div class="u-repeater u-repeater-2">`;
+  const iconSectionFooter = `</div></div>`;
 
   var allImages = iconSectionHeader;
   var iconGenerated = 0; // counter: every 12 icon generate footer and header for next 12 icons
-  var input = " ";
+  var iconCounter = 0;
+  var input = "";
 
   if (by === "search") {
+    // user searched something :)
     input = document.getElementById("searchInput").value;
+    if (input.length >= 2 && input.length <= 12) {
+      // handle abbreviations when searching
+      const abbr = fetchJSON("game icon data/abbreviations.json");
+      for (const abbrTitle in abbr) {
+        for (var index = 0; index < abbr[abbrTitle].length; index++) {
+          if (abbr[abbrTitle][index] === input.toLowerCase()) {
+            input = abbrTitle;
+          }
+        }
+      }
+    }
   }
 
-  let data = fetchJSON();
-  var iconsList = data[imageType]["iconName"];
+  const icons = fetchJSON("game icon data/icons.json");
+  const iconsList = icons[iconType]["iconName"];
   for (const index in iconsList) {
-    let icon = iconsList[index];
+    const icon = iconsList[index];
 
     if (icon.includes(input.toLowerCase())) {
       if (iconGenerated < 12) {
@@ -79,6 +90,9 @@ function getImages(by = "") {
       }
       document.getElementById("iconSection").innerHTML = allImages;
       iconGenerated += 1;
+      iconCounter += 1;
     }
   }
+  document.getElementById("iconCounter").innerHTML =
+    iconCounter + " / " + iconsList.length;
 }
