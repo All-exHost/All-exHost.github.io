@@ -12,10 +12,12 @@
         "mk"
     ],
     "resident evil": [
-        "re"
+        "re",
+        "biohazard"
     ],
     "red dead redemption": [
-        "rdr"
+        "rdr",
+        "red dead"
     ],
     "pro evolution soccer": [
         "pes"
@@ -33,5 +35,34 @@
     ],
     "the last of us": [
         "tlou"
+    ],
+    "grand theft auto": [
+        "gta",
+        "grand",
+        "grand theft"
+    ],
+    "grand theft auto san andreas": [
+        "gta sa",
+        "sa"
+    ],
+    "grand theft auto vice city": [
+        "gta vc",
+        "vc"
+    ],
+    "grand theft auto v": [
+        "gta v",
+        "v"
+    ],
+    "death stranding": [
+        "ds"
+    ],
+    "horizon zero dawn": [
+        "hzd",
+        "horizon 0",
+        "horizon zero",
+        "horizon dawn"
+    ],
+    "watch dogs": [
+        "wd"
     ]
 }

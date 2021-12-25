@@ -29,7 +29,9 @@ function getImages(by = "") {
       for (const abbrTitle in abbr) {
         for (var index = 0; index < abbr[abbrTitle].length; index++) {
           if (abbr[abbrTitle][index] === input.toLowerCase()) {
-            input = abbrTitle;
+            if (confirm("Are you looking for " + abbrTitle + "?")) {
+              input = abbrTitle;
+            }
           }
         }
       }
