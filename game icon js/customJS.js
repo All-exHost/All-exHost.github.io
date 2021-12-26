@@ -8,7 +8,13 @@ function fetchJSON(filePath) {
   return data;
 }
 
-function getImages(by = "") {
+var renderedIcons = 0; // stores how many rendered already
+
+function getImages(by = "", reset = false) {
+  if (reset) {
+    renderedIcons = 0;
+    document.getElementById("loadMore").removeAttribute("disabled");
+  }
   const iconType = document.getElementById("iconType").value;
   const imagesFolder = "game icon images/" + iconType;
 
@@ -17,8 +23,16 @@ function getImages(by = "") {
 
   var allImages = iconSectionHeader;
   var iconGenerated = 0; // counter: every 12 icon generate footer and header for next 12 icons
-  var iconCounter = 0;
+  var iconCounter = renderedIcons;
   var input = "";
+  var loadMore = 24;
+
+  const icons = fetchJSON("game icon data/icons.json");
+  const iconsList = icons[iconType]["iconName"];
+  const iconsLen = iconsList.length;
+
+  var iconsLeft = iconsLen - renderedIcons;
+  var iconsPerRender = loadMore;
 
   if (by === "search" || by === "typeChange") {
     // user searched something :)
@@ -36,17 +50,29 @@ function getImages(by = "") {
         }
       }
     }
+
+    if (input.length > 0) {
+      document.getElementById("iconInfoDisplay").innerHTML =
+        "All containing (" + input + ")";
+      loadMore = 10000; // all icons
+    } else {
+      document.getElementById("iconInfoDisplay").innerHTML = "All";
+    }
   }
 
-  const icons = fetchJSON("game icon data/icons.json");
-  const iconsList = icons[iconType]["iconName"];
-  for (const index in iconsList) {
-    const icon = iconsList[index];
+  if (iconsLeft - loadMore < 0) {
+    iconsPerRender = iconsLeft;
+    document.getElementById("loadMore").setAttribute("disabled", "true");
+  }
+
+  for (var index = 0; index < iconsPerRender; index++) {
+    const icon = iconsList[renderedIcons + index];
 
     if (icon.includes(input.toLowerCase())) {
       if (iconGenerated < 12) {
         allImages +=
-          `<div class="u-align-center u-container-style u-effect-hover-zoom u-image-contain u-list-item u-repeater-item u-list-item-2">
+          `<div class="u-similar-container u-valign-middle u-container-layout-3 u-align-center u-container-style u-effect-hover-zoom u-image-contain u-repeater-item u-list-item-2">
+          
           <a download="` +
           icon +
           `.png" href="` +
@@ -62,14 +88,19 @@ function getImages(by = "") {
           "/compressed/" +
           icon +
           `.png' class="u-background-effect-image u-expanded u-image u-image-contain">
-              </a>
-              </div>
+            <div class="textOverImgClass" >
+              <h4>CLICK TO DOWNLOAD<br></h4>
+            </div>
+            </a>
+          
+          </div>
+              
             `;
       } else {
         allImages +=
           iconSectionFooter +
           iconSectionHeader +
-          `<div class="u-align-center u-container-style u-effect-hover-zoom u-image-contain u-list-item u-repeater-item u-list-item-2">
+          `<div class="u-align-center u-container-style u-effect-hover-zoom u-image-contain u-repeater-item u-list-item-3">
           <a download="` +
           icon +
           `.png" href="` +
@@ -85,16 +116,24 @@ function getImages(by = "") {
           "/compressed/" +
           icon +
           `.png' class="u-background-effect-image u-expanded u-image u-image-contain">
-              </a>
-              </div>
+            <div class="textOverImgClass" >
+              <h4>CLICK TO DOWNLOAD<br></h4>
+            </div>  
+            </a>
+          </div>
             `;
         iconGenerated = 0;
       }
-      document.getElementById("iconSection").innerHTML = allImages;
       iconGenerated += 1;
       iconCounter += 1;
     }
   }
+  if (renderedIcons < loadMore) {
+    document.getElementById("iconSection").innerHTML = allImages;
+  } else {
+    document.getElementById("iconSection").innerHTML += allImages;
+  }
+  renderedIcons += loadMore;
   document.getElementById("iconCounter").innerHTML =
-    iconCounter + " / " + iconsList.length;
+    iconCounter + " / " + iconsLen;
 }

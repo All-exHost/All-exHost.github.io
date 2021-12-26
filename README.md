@@ -4,6 +4,16 @@ This is more or less a compilation of all PS4 exploit hosts. You can submit one 
 
 # Update notes
 
+* Game icon downloader (v1.01) changelog:
+
+> Added more compression for (ps5 & cover) icons (now they load much faster) 
+
+> Added new design elements
+
+> Added icons displayed info
+
+> Load more icons button implemented (now loads 24 icons per click)
+
 * Game icon downloader (beta v0.7) changelog:
 
 > Added support for abbreviation searching exp(gow = god of war) 
