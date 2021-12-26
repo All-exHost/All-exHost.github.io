@@ -4,6 +4,12 @@ This is more or less a compilation of all PS4 exploit hosts. You can submit one 
 
 # Update notes
 
+* Game icon downloader (v1.03) changelog:
+
+> Added more compression over 70% for better performance
+
+> Added (24) 3d icons
+
 * Game icon downloader (v1.01) changelog:
 
 > Added more compression for (ps5 & cover) icons (now they load much faster) 

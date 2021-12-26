@@ -28,7 +28,7 @@ function getImages(by = "", reset = false) {
   var loadMore = 24;
 
   const icons = fetchJSON("game icon data/icons.json");
-  const iconsList = icons[iconType]["iconName"];
+  const iconsList = icons[iconType]["iconName"].sort();
   const iconsLen = iconsList.length;
 
   var iconsLeft = iconsLen - renderedIcons;
