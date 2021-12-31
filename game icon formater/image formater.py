@@ -1,6 +1,6 @@
 import os
 
-path = os.getcwd() + "\\game icon formater"
+path = os.getcwd()
 files = os.listdir(path)
 
 with open(path + "\\json.txt", "w+") as text:
@@ -16,3 +16,5 @@ with open(path + "\\json.txt", "w+") as text:
             text.write('"' + edit + '",')
 
             os.rename(path + "\\" + file, path + "\\edited\\" + edit + ".png")
+os.startfile(path + "\\json.txt")
+#tmp = input("quit...")
