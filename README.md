@@ -4,6 +4,18 @@ This is more or less a compilation of all PS4 exploit hosts. You can submit one 
 
 # Update notes
 
+* Game icon downloader (v1.12) changelog:
+
+> Added homebrew icons under Style 
+
+> Added system icons under Style 
+
+> Added over 350 more icons
+
+> Added black background color for all white icons
+
+> Fixed when searching for numbers, all duplicates with the same number displayed 
+
 * Game icon downloader (v1.03) changelog:
 
 > Added more compression over 70% for better performance

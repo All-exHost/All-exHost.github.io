@@ -29,6 +29,13 @@ function getImages(by = "", reset = false) {
 
   const icons = fetchJSON("game icon data/icons.json");
   const iconsList = icons[iconType]["iconName"].sort();
+  var iconsCstmBG;
+  try {
+    iconsCstmBG = icons[iconType]["darkBackground"].sort();
+  } catch (error) {
+    iconsCstmBG = null;
+  }
+
   const iconsLen = iconsList.length;
 
   var iconsLeft = iconsLen - renderedIcons;
@@ -67,13 +74,26 @@ function getImages(by = "", reset = false) {
 
   for (var index = 0; index < iconsPerRender; index++) {
     const icon = iconsList[renderedIcons + index];
+    var iconTitle = icon;
+    var style = "";
+    if (icon.includes("(")) {
+      iconTitle = icon.slice(0, icon.indexOf("("));
+    }
 
-    if (icon.includes(input.toLowerCase())) {
+    if (iconTitle.includes(input.toLowerCase())) {
       if (iconGenerated < 12) {
+        if (iconsCstmBG != null) {
+          if (iconsCstmBG.includes(icon)) {
+            style = 'style="background:black; border-radius:13%;"';
+          }
+        }
+
         allImages +=
           `<div class="u-similar-container u-valign-middle u-container-layout-3 u-align-center u-container-style u-effect-hover-zoom u-image-contain u-repeater-item u-list-item-2">
           
-          <a download="` +
+          <a ` +
+          style +
+          ` download="` +
           icon +
           `.png" href="` +
           imagesFolder +
@@ -101,7 +121,9 @@ function getImages(by = "", reset = false) {
           iconSectionFooter +
           iconSectionHeader +
           `<div class="u-align-center u-container-style u-effect-hover-zoom u-image-contain u-repeater-item u-list-item-3">
-          <a download="` +
+          <a ` +
+          style +
+          ` download="` +
           icon +
           `.png" href="` +
           imagesFolder +

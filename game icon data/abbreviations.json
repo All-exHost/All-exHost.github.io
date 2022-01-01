@@ -51,7 +51,7 @@
     ],
     "grand theft auto v": [
         "gta v",
-        "v"
+        "gtav"
     ],
     "death stranding": [
         "ds"
@@ -64,5 +64,8 @@
     ],
     "watch dogs": [
         "wd"
+    ],
+    "final fantasy": [
+        "ff"
     ]
 }
