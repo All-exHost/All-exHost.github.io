@@ -45,6 +45,9 @@ function getImages(by = "", reset = false) {
     // user searched something :)
     input = document.getElementById("searchInput").value;
     if (input.length >= 2 && input.length <= 12) {
+      if (input === "lapy") {
+        alert("Big Shout-out to my friend LAPY");
+      }
       // handle abbreviations when searching
       const abbr = fetchJSON("game icon data/abbreviations.json");
       for (const abbrTitle in abbr) {
