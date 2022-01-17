@@ -5,9 +5,7 @@
         "owner": null,
         "visits": 49,
         "service": "Stop",
-        "firmware_support": [
-            "5.05"
-        ]
+        "firmware_support": ["5.05"]
     },
     "P30day": {
         "name": "P30day",
@@ -15,9 +13,7 @@
         "owner": null,
         "visits": 69,
         "service": "Stop",
-        "firmware_support": [
-            "7.02"
-        ]
+        "firmware_support": ["7.02"]
     },
     "Prb 755": {
         "name": "Prb 755",
@@ -25,9 +21,7 @@
         "owner": null,
         "visits": 239,
         "service": "Stop",
-        "firmware_support": [
-            "7.55"
-        ]
+        "firmware_support": ["7.55"]
     },
     "Prb 702": {
         "name": "Prb 702",
@@ -35,9 +29,7 @@
         "owner": null,
         "visits": 33,
         "service": "Stop",
-        "firmware_support": [
-            "7.02"
-        ]
+        "firmware_support": ["7.02"]
     },
     "AL Azif": {
         "name": "AL Azif",
@@ -52,7 +44,8 @@
             "6.72",
             "7.02",
             "7.50",
-            "7.55"
+            "7.55",
+            "9.00"
         ]
     },
     "PS Phive": {
@@ -61,19 +54,16 @@
         "owner": "https://twitter.com/leeful74",
         "visits": 108,
         "service": "Run",
-        "firmware_support": [
-            "6.72"
-        ]
+        "firmware_support": ["6.72"]
     },
+
     "PS Phwoar": {
         "name": "PS Phwoar",
         "link": "https://ps-phwoar.github.io/",
         "owner": "https://twitter.com/leeful74",
         "visits": 161,
         "service": "Run",
-        "firmware_support": [
-            "6.72"
-        ]
+        "firmware_support": ["6.72"]
     },
     "The Wolf Gamer": {
         "name": "The Wolf Gamer",
@@ -81,14 +71,7 @@
         "owner": "https://twitter.com/mohammad_fadel1",
         "visits": 442,
         "service": "Run",
-        "firmware_support": [
-            "5.05",
-            "6.72",
-            "7.02",
-            "7.50",
-            "7.55",
-            "9.00"
-        ]
+        "firmware_support": ["5.05", "6.72", "7.02", "7.50", "7.55", "9.00"]
     },
     "Hakkuraifu": {
         "name": "Hakkuraifu",
@@ -96,15 +79,7 @@
         "owner": "https://twitter.com/NazkyYT",
         "visits": 561,
         "service": "Run",
-        "firmware_support": [
-            "4.05",
-            "4.55",
-            "5.05",
-            "6.72",
-            "7.02",
-            "7.50",
-            "7.55"
-        ]
+        "firmware_support": ["4.05", "4.55", "5.05", "6.72", "7.02", "7.50", "7.55"]
     },
     "Darkmoddervc": {
         "name": "Darkmoddervc",
@@ -112,13 +87,7 @@
         "owner": "https://twitter.com/ModderVc",
         "visits": 298,
         "service": "Run",
-        "firmware_support": [
-            "6.72",
-            "7.02",
-            "7.50",
-            "7.55",
-            "9.00"
-        ]
+        "firmware_support": ["6.72", "7.02", "7.50", "7.55", "9.00"]
     },
     "Editz Modz": {
         "name": "Editz Modz",
@@ -126,14 +95,7 @@
         "owner": "https://twitter.com/editzzmodz",
         "visits": 76,
         "service": "Run",
-        "firmware_support": [
-            "1.76",
-            "4.05",
-            "4.55",
-            "5.05",
-            "6.72",
-            "7.02"
-        ]
+        "firmware_support": ["1.76", "4.05", "4.55", "5.05", "6.72", "7.02"]
     },
     "Leeful v10": {
         "name": "Leeful v10",
@@ -141,9 +103,7 @@
         "owner": null,
         "visits": 126,
         "service": "Run",
-        "firmware_support": [
-            "6.72"
-        ]
+        "firmware_support": ["6.72"]
     },
     "judasExploit": {
         "name": "judasExploit",
@@ -151,9 +111,7 @@
         "owner": "https://twitter.com/7judas",
         "visits": 53,
         "service": "Run",
-        "firmware_support": [
-            "7.02"
-        ]
+        "firmware_support": ["7.02"]
     },
     "PS4 Metro": {
         "name": "PS4 Metro",
@@ -161,9 +119,7 @@
         "owner": null,
         "visits": 49,
         "service": "Run",
-        "firmware_support": [
-            "7.02"
-        ]
+        "firmware_support": ["7.02"]
     },
     "exploitOS": {
         "name": "exploitOS",
@@ -171,9 +127,7 @@
         "owner": null,
         "visits": 61,
         "service": "Run",
-        "firmware_support": [
-            "7.02"
-        ]
+        "firmware_support": ["7.02"]
     },
     "PS4 Macedo 702": {
         "name": "PS4 Macedo 702",
@@ -181,9 +135,7 @@
         "owner": "https://twitter.com/Macedo95766776",
         "visits": 51,
         "service": "Run",
-        "firmware_support": [
-            "7.02"
-        ]
+        "firmware_support": ["7.02"]
     },
     "PS4 Macedo 75x2": {
         "name": "PS4 Macedo 75x2",
@@ -191,10 +143,7 @@
         "owner": "https://twitter.com/Macedo95766776",
         "visits": 0,
         "service": "Stop",
-        "firmware_support": [
-            "7.50",
-            "7.55"
-        ]
+        "firmware_support": ["7.50", "7.55"]
     },
     "PS4 Macedo V7": {
         "name": "PS4 Macedo V7",
@@ -202,9 +151,7 @@
         "owner": "https://twitter.com/Macedo95766776",
         "visits": 28,
         "service": "Run",
-        "firmware_support": [
-            "7.55"
-        ]
+        "firmware_support": ["7.55"]
     },
     "PSGO": {
         "name": "PSGO",
@@ -212,11 +159,7 @@
         "owner": null,
         "visits": 226,
         "service": "Run",
-        "firmware_support": [
-            "5.05",
-            "6.72",
-            "7.02"
-        ]
+        "firmware_support": ["5.05", "6.72", "7.02"]
     },
     "Santa atmo": {
         "name": "Santa atmo",
@@ -224,12 +167,7 @@
         "owner": null,
         "visits": 194,
         "service": "Run",
-        "firmware_support": [
-            "6.72",
-            "7.50",
-            "7.55",
-            "9.00"
-        ]
+        "firmware_support": ["6.72", "7.50", "7.55", "9.00"]
     },
     "GamerHack": {
         "name": "GamerHack",
@@ -237,10 +175,7 @@
         "owner": null,
         "visits": 126,
         "service": "Run",
-        "firmware_support": [
-            "7.50",
-            "7.55"
-        ]
+        "firmware_support": ["7.50", "7.55"]
     },
     "Karo218": {
         "name": "Karo218",
@@ -248,14 +183,7 @@
         "owner": "https://twitter.com/karo_sharifi",
         "visits": 390,
         "service": "Run",
-        "firmware_support": [
-            "5.05",
-            "6.72",
-            "7.02",
-            "7.50",
-            "7.55",
-            "9.00"
-        ]
+        "firmware_support": ["5.05", "6.72", "7.02", "7.50", "7.55", "9.00"]
     },
     "Dr Cable": {
         "name": "Dr Cable",
@@ -263,10 +191,7 @@
         "owner": "https://twitter.com/DrCableTech",
         "visits": 121,
         "service": "Run",
-        "firmware_support": [
-            "7.02",
-            "7.55"
-        ]
+        "firmware_support": ["7.02", "7.55"]
     },
     "Gamer Hack 75x": {
         "name": "Gamer Hack 75x",
@@ -274,10 +199,7 @@
         "owner": null,
         "visits": 182,
         "service": "Run",
-        "firmware_support": [
-            "7.50",
-            "7.55"
-        ]
+        "firmware_support": ["7.50", "7.55"]
     },
     "Crono Dreambox": {
         "name": "Crono Dreambox",
@@ -285,24 +207,16 @@
         "owner": "https://twitter.com/cronocardoso",
         "visits": 1,
         "service": "Run",
-        "firmware_support": [
-            "7.50",
-            "7.55"
-        ]
+        "firmware_support": ["7.50", "7.55"]
     },
+
     "PS4Xploit": {
         "name": "PS4Xploit",
         "link": "http://ps4xploit.zd.lu",
         "owner": "https://twitter.com/nazkyyt",
         "visits": 1,
         "service": "Run",
-        "firmware_support": [
-            "6.72",
-            "7.02",
-            "7.50",
-            "7.55",
-            "9.00"
-        ]
+        "firmware_support": ["6.72", "7.02", "7.50", "7.55", "9.00"]
     },
     "Gamer Hack 672": {
         "name": "Gamer Hacker 672",
@@ -310,9 +224,7 @@
         "owner": null,
         "visits": 1,
         "service": "Run",
-        "firmware_support": [
-            "6.72"
-        ]
+        "firmware_support": ["6.72"]
     },
     "Hippie": {
         "name": "Hippie",
@@ -320,11 +232,7 @@
         "owner": null,
         "visits": 1,
         "service": "Run",
-        "firmware_support": [
-            "7.02",
-            "7.50",
-            "7.55"
-        ]
+        "firmware_support": ["7.02", "7.50", "7.55"]
     },
     "SonysNightmare": {
         "name": "SonysNightmare",
@@ -332,10 +240,54 @@
         "owner": "https://twitter.com/SonysNightmare",
         "visits": 1,
         "service": "Run",
-        "firmware_support": [
-            "7.02",
-            "7.50",
-            "7.55"
-        ]
+        "firmware_support": ["7.02", "7.50", "7.55"]
+    },
+    "NightKingHost": {
+        "name": "NightKingHost",
+        "link": "https://www.nightkinghost.com/",
+        "owner": "https://twitter.com/salt13939424",
+        "visits": 200,
+        "service": "Run",
+        "firmware_support": ["5.05", "6.72", "7.02", "7.50", "7.55", "9.00"]
+    },
+    "Kameleon 900": {
+        "name": "Kameleon 900",
+        "link": "https://kameleonreloaded.github.io/900V4B/",
+        "owner": "https://twitter.com/KameleonRe",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
+    },
+    "bader 672": {
+        "name": "bader 672",
+        "link": "https://baderlink.info/all/bader672/index.html",
+        "owner": "https://twitter.com/bbaderlink",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["6.72"]
+    },
+    "leeful 900": {
+        "name": "leeful 900",
+        "link": "https://leeful.github.io/9v4/",
+        "owner": "https://twitter.com/leeful74",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
+    },
+    "GamerHack 900": {
+        "name": "GamerHack 900",
+        "link": "https://gamerhack.github.io/ps4jb900v2/",
+        "owner": null,
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
+    },
+    "Crono Dreambox 900": {
+        "name": "Crono Dreambox 900",
+        "link": "https://devcrono.github.io/crono_dreambox900auto3/",
+        "owner": "https://twitter.com/cronocardoso",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
     }
 }
