@@ -247,7 +247,7 @@
         "link": "https://www.nightkinghost.com/",
         "owner": "https://twitter.com/salt13939424",
         "visits": 200,
-        "service": "Run",
+        "service": "stop",
         "firmware_support": ["5.05", "6.72", "7.02", "7.50", "7.55", "9.00"]
     },
     "Kameleon 900": {
