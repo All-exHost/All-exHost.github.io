@@ -242,20 +242,12 @@
         "service": "Run",
         "firmware_support": ["7.02", "7.50", "7.55"]
     },
-    "NightKingHost": {
-        "name": "NightKingHost",
-        "link": "https://www.nightkinghost.com/",
-        "owner": "https://twitter.com/salt13939424",
-        "visits": 200,
-        "service": "stop",
-        "firmware_support": ["5.05", "6.72", "7.02", "7.50", "7.55", "9.00"]
-    },
     "Kameleon 900": {
         "name": "Kameleon 900",
         "link": "https://kameleonreloaded.github.io/900V4B/",
         "owner": "https://twitter.com/KameleonRe",
         "visits": 1,
-        "service": "Run",
+        "service": "Stop",
         "firmware_support": ["9.00"]
     },
     "bader 672": {
@@ -289,5 +281,37 @@
         "visits": 1,
         "service": "Run",
         "firmware_support": ["9.00"]
+    },
+    "Macedo 900": {
+        "name": "Macedo 900",
+        "link": "https://ps4macedo.github.io/900sl2/",
+        "owner": "https://twitter.com/Macedo95766776",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
+    },
+    "Kameleon 900 AIO": {
+        "name": "Kameleon 900 AIO",
+        "link": "https://www.kmeps4.site",
+        "owner": "https://twitter.com/KameleonRe",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
+    },
+    "Mugiwara 9.00 v7": {
+        "name": "Mugiwara 9.00 v7",
+        "link": "https://mugiwara-v2.github.io/host-v7/",
+        "owner": null,
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
+    },
+    "Ps4hen": {
+        "name": "Ps4hen",
+        "link": "https://ps4hen.ru/",
+        "owner": null,
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00", "5.05", "6.72", "7.02", "7.50", "7.55"]
     }
 }
