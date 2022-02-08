@@ -313,5 +313,13 @@
         "visits": 1,
         "service": "Run",
         "firmware_support": ["9.00", "5.05", "6.72", "7.02", "7.50", "7.55"]
+    },
+    "PS4 Xploit Host": {
+        "name": "PS4 Xploit Host",
+        "link": "https://ps4xploit900.github.io/jailbreak/",
+        "owner": "https://twitter.com/mour0ne",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["9.00"]
     }
 }
