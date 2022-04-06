@@ -25,25 +25,26 @@ def timestamp(increment):
 def Run(iconType):
     path = os.getcwd()
     files = os.listdir(path)
-    jsonPath = (
-        path[: len(path) - len("game icon formater")] + "\\game icon data\\icons.json"
-    )
 
     counter = 1
     with open(path + "\\json.txt", "w+") as text:
         for file in files:
             if ".png" in file or ".PNG" in file:
                 edit = file[: file.find(".png")].lower()
+                if " - " in file:
+                    edit = edit[:edit.index(" - ")]
                 if "-" in file:
                     edit = edit.replace("-", " ")
                 if "'" in file:
                     edit = edit.replace("'", "")
                 if "~" in file:
                     edit = edit.replace("~", "")
-                if "_" in file:
-                    edit = edit.replace("_", "")
+                if "_s" in file:
+                    edit = edit.replace("_s", "s")
+                elif "_" in file:
+                    edit = edit.replace("_", " ")
 
-                with open(jsonPath, "r+") as jsonFile:
+                with open("c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\icons.json", "r+") as jsonFile:
                     data = json.load(jsonFile)
                     time.sleep(0.1)
                     stamp = timestamp(counter)
@@ -63,7 +64,7 @@ def Run(iconType):
                     json.dump(data, jsonFile)
                     counter += 1
                 print("Added icon successfully.")
-
+            
         os.startfile(path + "\\json.txt")
 
 
