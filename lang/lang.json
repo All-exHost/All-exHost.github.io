@@ -33,8 +33,8 @@
         "lowest": "الأقل",
         "most viewed": "عدد الزيارة",
         "Go3": "بحث",
-
         "latest": "تم إضافتها مؤخرا",
+
         "latest reviews": "أخر تقيمات المستخدمين",
         "latest reviews info": "ساعد اللاعبين الجدد معرفة المواقع الافضل والحسن عن الاخرى. انتبه: تقيم الموقع من ناحية استقرار الهاك ممنوع وهذه المعلومة تعتبر خاطئه, الا اذا كانت الثغرة بنفس التحديث فقط. التقييم عن طريق البرامج التي يوفرها او سرعة الموقع والخ",
 
@@ -52,12 +52,117 @@
         "latest release": " تاريخ اخر اصدار (10/4/2022)"
     },
 
-    "es": {},
+    "es": {
+        "Menu": "menú",
+        "Menu 1": "las 3 primeras exploits",
+        "Menu 2": "todos los exploits de PlayStation 4",
+        "Menu 3": "últimas opiniones de usuarios",
+        "Menu 4": "descargar iconos de ps4",
+        "Menu 5": "todas las reseñas",
+        "Menu 6": "falsas los exploits de PlayStation 4",
+        "Language": "lenguaje",
+
+        "All PS4 ...": "todos los exploits de PlayStation 4 en un solo lugar",
+        "Choose your fav...": "elije donde se aloja tu exploit favorito y sabes cual es uno de los sitios mas visitados por los usuarios",
+        "Do you like ...": "te gusta el sitio web?",
+        "Consider donat...": "porfavor considera una donacion",
+        "Created by..": "creado y manejado por @Officialahmed0",
+        "Translated...": "traducido por @Pkato36Ortiz & @Officialahmed0",
+        "contact": "contact",
+        "my contri...": "mis contribuciones para el PS4",
+
+        "top 3": "3 primeros",
+        "xploit hosts": "exploits de PlayStation 4",
+        "based num visits": "basado en 40860 vistas",
+
+        "exp hosts": "exploit de hosts",
+        "filter": "filtro de hosts",
+
+        "Go1": "búsqueda",
+        "all": "todo",
+        "fw": "software",
+        "Go2": "búsqueda",
+        "highest": "arriva",
+        "lowest": "abajo",
+        "most viewed": "Más visitada",
+        "Go3": "búsqueda",
+        "latest": "reciente",
+
+        "latest reviews": "últimas revisiones",
+        "latest reviews info": "",
+
+        "review btn": "calificar o revisar",
+        "show all btn": "todos",
+
+        "req xploit": "requisitos hosts",
+        "req xploit info": "lo que necesitas/enviar ps4 exploit hosts",
+        "req lang": "enviar lenguaje",
+        "req lang info": "traducir web?",
+
+        "req xploit btn": "requisitos hosts",
+        "req lang btn": "enviar lenguaje",
+
+        "1st release": "lanzamiento (Dec 13th, 2020)",
+        "latest release": "ultima actualizacion (Apr 10th, 2022)"
+    },
     "de": {},
     "pt": {},
     "fr": {},
     "ur": {},
     "ru": {},
     "id": {},
-    "tr": {}
+    "tr": {},
+
+    "Main Structure": {
+        "Menu": "",
+        "Menu 1": "",
+        "Menu 2": "",
+        "Menu 3": "",
+        "Menu 4": "",
+        "Menu 5": "",
+        "Menu 6": "",
+        "Language": "",
+
+        "All PS4 ...": "",
+        "Choose your fav...": "",
+        "Do you like ...": "",
+        "Consider donat...": "",
+        "Created by..": "",
+        "Translated...": "",
+        "contact": "",
+        "my contri...": "",
+
+        "top 3": "",
+        "xploit hosts": "",
+        "based num visits": "",
+
+        "exp hosts": "",
+        "filter": "",
+
+        "Go1": "",
+        "all": "",
+        "fw": "",
+        "Go2": "",
+        "highest": "",
+        "lowest": "",
+        "most viewed": "",
+        "Go3": "",
+
+        "latest": "",
+        "latest reviews": "",
+        "latest reviews info": "",
+
+        "review btn": "",
+        "show all btn": "",
+
+        "req xploit": "",
+        "req xploit info": "",
+        "req lang": "",
+        "req lang info": "",
+        "req xploit btn": "",
+        "req lang btn": "",
+
+        "1st release": "",
+        "latest release": ""
+    }
 }

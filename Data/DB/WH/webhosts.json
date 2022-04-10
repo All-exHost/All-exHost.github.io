@@ -31,6 +31,22 @@
         "service": "Stop",
         "firmware_support": ["7.02"]
     },
+    "Kameleon 900": {
+        "name": "Kameleon 900",
+        "link": "https://kameleonreloaded.github.io/900V4B/",
+        "owner": "https://twitter.com/KameleonRe",
+        "visits": 1,
+        "service": "Stop",
+        "firmware_support": ["9.00"]
+    },
+    "PS4 Macedo 75x2": {
+        "name": "PS4 Macedo 75x2",
+        "link": "https://ps4macedo.github.io/75x2/",
+        "owner": "https://twitter.com/Macedo95766776",
+        "visits": 0,
+        "service": "Stop",
+        "firmware_support": ["7.50", "7.55"]
+    },
     "AL Azif": {
         "name": "AL Azif",
         "link": "https://cthugha.exploit.menu/",
@@ -137,14 +153,7 @@
         "service": "Run",
         "firmware_support": ["7.02"]
     },
-    "PS4 Macedo 75x2": {
-        "name": "PS4 Macedo 75x2",
-        "link": "https://ps4macedo.github.io/75x2/",
-        "owner": "https://twitter.com/Macedo95766776",
-        "visits": 0,
-        "service": "Stop",
-        "firmware_support": ["7.50", "7.55"]
-    },
+
     "PS4 Macedo V7": {
         "name": "PS4 Macedo V7",
         "link": "https://ps4macedo.github.io/755v7/",
@@ -242,14 +251,7 @@
         "service": "Run",
         "firmware_support": ["7.02", "7.50", "7.55"]
     },
-    "Kameleon 900": {
-        "name": "Kameleon 900",
-        "link": "https://kameleonreloaded.github.io/900V4B/",
-        "owner": "https://twitter.com/KameleonRe",
-        "visits": 1,
-        "service": "Stop",
-        "firmware_support": ["9.00"]
-    },
+
     "bader 672": {
         "name": "bader 672",
         "link": "https://baderlink.info/all/bader672/index.html",

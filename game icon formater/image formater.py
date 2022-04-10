@@ -23,8 +23,15 @@ def timestamp(increment):
 
 
 def Run(iconType):
-    path = os.getcwd()
+    path = os.getcwd() + "\\game icon formater"
     files = os.listdir(path)
+    contributers = {}
+
+    with open(
+        "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\contributors.json",
+        "r+",
+    ) as readFile:
+        contributers = json.load(readFile)
 
     counter = 1
     with open(path + "\\json.txt", "w+") as text:
@@ -32,7 +39,11 @@ def Run(iconType):
             if ".png" in file or ".PNG" in file:
                 edit = file[: file.find(".png")].lower()
                 if " - " in file:
-                    edit = edit[:edit.index(" - ")]
+                    # include contributor name if found
+                    contributor_name = edit[edit.find(" - ") + 3 :]
+                    if contributor_name not in contributers["name"]:
+                        contributers["name"].append(contributor_name)
+                    edit = edit[: edit.find(" - ")]
                 if "-" in file:
                     edit = edit.replace("-", " ")
                 if "'" in file:
@@ -44,7 +55,10 @@ def Run(iconType):
                 elif "_" in file:
                     edit = edit.replace("_", " ")
 
-                with open("c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\icons.json", "r+") as jsonFile:
+                with open(
+                    "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\icons.json",
+                    "r+",
+                ) as jsonFile:
                     data = json.load(jsonFile)
                     time.sleep(0.1)
                     stamp = timestamp(counter)
@@ -64,7 +78,11 @@ def Run(iconType):
                     json.dump(data, jsonFile)
                     counter += 1
                 print("Added icon successfully.")
-            
+        with open(
+            "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\contributors.json",
+            "w+",
+        ) as contributionFile:
+            json.dump(contributers, contributionFile)
         os.startfile(path + "\\json.txt")
 
 
