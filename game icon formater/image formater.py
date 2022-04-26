@@ -86,4 +86,4 @@ def Run(iconType):
         os.startfile(path + "\\json.txt")
 
 
-Run(input("Enter the image type(3d/cover/ps5/homebrew/system/qz): ").lower())
+Run(input("Enter the image type(3d/cover/ps5/homebrew/system/qz/qznow): ").lower())

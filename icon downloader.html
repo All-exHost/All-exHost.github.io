@@ -34,7 +34,7 @@
             let contributors = fetchJSON("game icon data/contributors.json")["name"];
             var result = ""
             for (name in contributors) {
-                result += contributors[name] + " "
+                result += contributors[name] + ", "
             }
             var popup = document.getElementById("namesPopup");
             popup.innerHTML = result
@@ -98,6 +98,7 @@
                                 <option value="ps5">PS5</option>
                                 <option value="cover">Cover</option>
                                 <option value="qz">Qz</option>
+                                <option value="qznow">Qz_now</option>
                                 <option value="homebrew">Homebrew</option>
                                 <option value="system">System</option>
                             </select>
