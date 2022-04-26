@@ -23,22 +23,22 @@ function pickTop3Hosts() {
                   <h3 class="u-align-center u-custom-font u-font-merriweather u-text u-text-1">` +
             name +
             `</h3>
-      <p class="u-align-left u-custom-font u-font-merriweather u-text u-text-2">Total visits:
+            <p class="u-align-left u-custom-font u-font-merriweather u-text u-text-2">Total visits:
                           <a style="color:purple">
                           ` +
             visit +
             ` approx.
-                          </a>
-                          </p>
-                          <p class="u-align-left u-custom-font u-font-merriweather u-text u-text-2">Fw support:
-                          <a style="color:purple">
-                          ` +
+            </a>
+            </p>
+            <p class="u-align-left u-custom-font u-font-merriweather u-text u-text-2">Fw support:
+            <a style="color:purple">
+            ` +
             fw +
             `
-      </a>
-                      </p>
-                      <p class="u-align-left u-custom-font u-font-merriweather u-text u-text-2">Owner : 
-                      ` +
+            </a>
+            </p>
+            <p class="u-align-left u-custom-font u-font-merriweather u-text u-text-2">Owner : 
+            ` +
             anchorTag +
             `
       </p>
@@ -89,6 +89,7 @@ function pickTop3Hosts() {
             let match = "https://twitter.com/";
             hashTag = sorted[x]["owner"].substring(match.length);
         }
+
         generateTopHostSection(
             "host" + x,
             sorted[x]["name"],

@@ -28,7 +28,8 @@
         "need 4 speed"
     ],
     "metal gear solid": [
-        "mgs"
+        "mgs",
+        "Mgs"
     ],
     "far cry": [
         "fc"
@@ -51,7 +52,10 @@
     ],
     "grand theft auto v": [
         "gta v",
-        "gtav"
+        "gtav",
+        "gta 5",
+        "grand 5",
+        "grand v"
     ],
     "death stranding": [
         "ds"
@@ -59,13 +63,15 @@
     "horizon zero dawn": [
         "hzd",
         "horizon 0",
-        "horizon zero",
-        "horizon dawn"
+        "horizon zero"
     ],
     "watch dogs": [
         "wd"
     ],
     "final fantasy": [
         "ff"
+    ],
+    "crash team racing": [
+        "ctr"
     ]
 }
