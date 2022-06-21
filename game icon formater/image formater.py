@@ -23,7 +23,7 @@ def timestamp(increment):
 
 
 def Run(iconType):
-    path = os.getcwd() + "\\game icon formater"
+    path = os.getcwd()
     files = os.listdir(path)
     contributers = {}
 
