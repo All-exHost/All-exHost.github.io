@@ -1,77 +1,24 @@
 {
-    "god of war": [
-        "gow"
-    ],
-    "call of duty": [
-        "cod"
-    ],
-    "assassins creed": [
-        "ac"
-    ],
-    "mortal kombat": [
-        "mk"
-    ],
-    "resident evil": [
-        "re",
-        "biohazard"
-    ],
-    "red dead redemption": [
-        "rdr",
-        "red dead"
-    ],
-    "pro evolution soccer": [
-        "pes"
-    ],
-    "need for speed": [
-        "nfs",
-        "n4s",
-        "need 4 speed"
-    ],
-    "metal gear solid": [
-        "mgs",
-        "Mgs"
-    ],
-    "far cry": [
-        "fc"
-    ],
-    "the last of us": [
-        "tlou"
-    ],
-    "grand theft auto": [
-        "gta",
-        "grand",
-        "grand theft"
-    ],
-    "grand theft auto san andreas": [
-        "gta sa",
-        "sa"
-    ],
-    "grand theft auto vice city": [
-        "gta vc",
-        "vc"
-    ],
-    "grand theft auto v": [
-        "gta v",
-        "gtav",
-        "gta 5",
-        "grand 5",
-        "grand v"
-    ],
-    "death stranding": [
-        "ds"
-    ],
-    "horizon zero dawn": [
-        "hzd",
-        "horizon 0",
-        "horizon zero"
-    ],
-    "watch dogs": [
-        "wd"
-    ],
-    "final fantasy": [
-        "ff"
-    ],
-    "crash team racing": [
-        "ctr"
-    ]
+    "god of war": ["gow"],
+    "call of duty": ["cod"],
+    "assassins creed": ["ac"],
+    "mortal kombat": ["mk", "mortal combat"],
+    "resident evil": ["re", "biohazard"],
+    "red dead redemption": ["rdr", "red dead"],
+    "pro evolution soccer": ["pes"],
+    "need for speed": ["nfs", "n4s", "need 4 speed"],
+    "metal gear solid": ["mgs"],
+    "far cry": ["fc"],
+    "the last of us": ["tlou"],
+    "the last of us part 2": ["tlou ii", "tlou2"],
+    "grand theft auto": ["gta", "grand", "grand theft"],
+    "grand theft auto san andreas": ["gta sa", "sa", "grand sa"],
+    "grand theft auto vice city": ["grand vc", "gta vc", "vc"],
+    "grand theft auto v": ["gta v", "gtav", "gta 5", "grand 5", "grand v"],
+    "death stranding": ["ds"],
+    "horizon zero dawn": ["hzd", "horizon 0", "horizon zero"],
+    "watch dogs": ["wd"],
+    "final fantasy": ["ff"],
+    "crash team racing": ["ctr"],
+    "back for blood": ["back 4 blood"]
 }
