@@ -23,7 +23,7 @@ def timestamp(increment):
 
 
 def Run(iconType):
-    path = os.getcwd()
+    path = os.getcwd() + "\\game icon formater"
     files = os.listdir(path)
     contributers = {}
 
@@ -38,8 +38,16 @@ def Run(iconType):
         for file in files:
             if ".png" in file or ".PNG" in file:
                 edit = file[: file.find(".png")].lower()
+                if " _ qz" in edit:
+                    edit = edit.replace(" _ qz", "")
+                if " _ qz-now" in edit:
+                    edit = edit.replace(" _ qz-now", "")
+                if " _ ps-qz" in edit:
+                    edit = edit.replace(" _ ps-qz", "")
+                    
+
                 if " - " in file:
-                    # include contributor name if found
+                    # include contributor name if foundw
                     contributor_name = edit[edit.find(" - ") + 3 :]
                     if contributor_name not in contributers["name"]:
                         contributers["name"].append(contributor_name)
@@ -50,6 +58,8 @@ def Run(iconType):
                     edit = edit.replace("'", "")
                 if "~" in file:
                     edit = edit.replace("~", "")
+                
+                
                 if "_s" in file:
                     edit = edit.replace("_s", "s")
                 elif "_" in file:
@@ -87,3 +97,4 @@ def Run(iconType):
 
 
 Run(input("Enter the image type(3d/cover/ps5/homebrew/system/qz/qznow): ").lower())
+
