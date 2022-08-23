@@ -1,6 +1,5 @@
 import os, json, time
 
-
 def timestamp(increment):
     # unique number to avoid clashes in icons naming
     result = ""
@@ -20,7 +19,6 @@ def timestamp(increment):
         result += f"{i}"
 
     return result[2:]  # remove century
-
 
 def Run(iconType):
     path = os.getcwd() + "\\game icon formater"
@@ -95,6 +93,4 @@ def Run(iconType):
             json.dump(contributers, contributionFile)
         os.startfile(path + "\\json.txt")
 
-
-Run(input("Enter the image type(3d/cover/ps5/homebrew/system/qz/qznow): ").lower())
-
+Run(input("Enter the image type(3d/cover/ps5/homebrew/system/qz/qznow/squircle): ").lower())

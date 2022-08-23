@@ -2331,7 +2331,23 @@
             "remote package installer (22621185369)",
             "the playroom (22621185363)",
             "youtube (22621185361)",
-            "goldhen cheats manager (22621181104)"
+            "goldhen cheats manager (22621181104)",
+            "apollo (22823141215)",
+            "browser (22823141216)",
+            "cheat manager (22823141215)",
+            "cheat manager (22823141229)",
+            "gallery (22823141225)",
+            "homebrew store (22823141225)",
+            "icon mask (22823141234)",
+            "orbis ftp (22823141237)",
+            "ps4 player (22823141237)",
+            "ps4 temperature (22823141233)",
+            "ps4 xplorer (22823141249)",
+            "ps4 xplorer (22823141247)",
+            "remote package installer (22823141240)",
+            "store (22823141243)",
+            "whats new (22823141256)",
+            "youtube (22823141259)"
         ],
         "darkBackground": [
             "twitch",
@@ -3224,6 +3240,31 @@
             "stray (2281912207)",
             "super meat boy forever (2281912200)",
             "the quarry (2281912210)"
+        ]
+    },
+    "squircle": {
+        "iconName": [
+            "bully (22823148206)",
+            "cyberpunk 2077 (22823148200)",
+            "dead island (22823148205)",
+            "far cry 6 (22823148200)",
+            "fifa 22 (22823148216)",
+            "ghost of tsushima (22823148211)",
+            "hell blade senuas sacrifice (22823148212)",
+            "horizon forbidden west (22823148223)",
+            "martha inside (22823148226)",
+            "my friend pedro (22823148220)",
+            "need for speed payback (22823148228)",
+            "plague tale innocence (22823148231)",
+            "red dead redemption (22823148238)",
+            "saints row the third (22823148238)",
+            "shadow warrior (22823148249)",
+            "sifu (22823148241)",
+            "stranded deep (22823148249)",
+            "stray (22823148247)",
+            "the last of us part ii (22823148254)",
+            "the quarry (22823148257)",
+            "unravel (22823148258)"
         ]
     }
 }
