@@ -2,9 +2,9 @@
 
 You can contribute by  
 
-> submiting exploit hosts (within the website)
+> submiting exploit hosts `Through the website form`
 
-> review hosts (within the website)
+> review hosts `Through the website form`
 
 > share icons for "download icon" (Through submitting an issue or sharing the link on DM twitter@OfficialAhmed0)
 
