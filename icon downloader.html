@@ -1,145 +1,261 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Brand design, We help and solve your business problem, ​​We focus on ensuring a competitive edge, ​Flexible Distance Learning, 8 650, 2 500, 1 500, 9 000, Our Services, Need More Information?, Our Latest Work">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
+<html style="font-size: 16px">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta
+      name="keywords"
+      content="Brand design, We help and solve your business problem, ​​We focus on ensuring a competitive edge, ​Flexible Distance Learning, 8 650, 2 500, 1 500, 9 000, Our Services, Need More Information?, Our Latest Work"
+    />
+    <meta name="description" content="" />
+    <meta name="page_type" content="np-template-header-footer-from-plugin" />
     <title>Download PS4 Game Icons</title>
-    <link rel="stylesheet" href="game icon css/nicepage.css" media="screen">
-    <link rel="stylesheet" href="game icon css/index.css" media="screen">
-    <link rel="stylesheet" href="game icon css/popup.css" media="screen">
-    <script class="u-script" type="text/javascript" src="game icon js/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="game icon js/nicepage.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="game icon js/customJS.js"></script>
-    <meta name="generator" content="Nicepage 4.2.6, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i">
+    <link rel="stylesheet" href="game icon css/nicepage.css" media="screen" />
+    <link rel="stylesheet" href="game icon css/index.css" media="screen" />
+    <link rel="stylesheet" href="game icon css/popup.css" media="screen" />
+    <script
+      class="u-script"
+      type="text/javascript"
+      src="game icon js/jquery.js"
+      defer=""
+    ></script>
+    <script
+      class="u-script"
+      type="text/javascript"
+      src="game icon js/nicepage.js"
+      defer=""
+    ></script>
+    <script
+      class="u-script"
+      type="text/javascript"
+      src="game icon js/customJS.js"
+    ></script>
+    <meta name="generator" content="Nicepage 4.2.6, nicepage.com" />
+    <link
+      id="u-theme-google-font"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    />
+    <link
+      id="u-page-google-font"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i"
+    />
 
-    <meta name="theme-color" content="#1281e8">
-    <meta property="og:title" content="Home">
-    <meta property="og:type" content="website">
-</head>
+    <meta name="theme-color" content="#1281e8" />
+    <meta property="og:title" content="Home" />
+    <meta property="og:type" content="website" />
+  </head>
 
-<body data-home-page="Home.html" data-home-page-title="Home" class="u-body">
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body">
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            getImages(); // 3d is the default folder
+      document.addEventListener("DOMContentLoaded", function () {
+        getImages(); // 3d is the default folder
+      });
 
+      function showPopup() {
+        let contributors = fetchJSON("game icon data/contributors.json")[
+          "name"
+        ];
+        var result = "";
+        for (name in contributors) {
+          result += contributors[name] + ", ";
+        }
+        var popup = document.getElementById("namesPopup");
+        popup.innerHTML = result;
+        popup.classList.toggle("show");
+
+        $(".button").click(function () {
+          var buttonId = $(this).attr("id");
+          $("#modal-container").removeAttr("class").addClass(buttonId);
+          $("body").addClass("modal-active");
         });
 
-        function showPopup() {
-            let contributors = fetchJSON("game icon data/contributors.json")["name"];
-            var result = ""
-            for (name in contributors) {
-                result += contributors[name] + ", "
-            }
-            var popup = document.getElementById("namesPopup");
-            popup.innerHTML = result
-            popup.classList.toggle("show");
-
-            $('.button').click(function() {
-                var buttonId = $(this).attr('id');
-                $('#modal-container').removeAttr('class').addClass(buttonId);
-                $('body').addClass('modal-active');
-            })
-
-            $('#modal-container').click(function() {
-                $(this).addClass('out');
-                $('body').removeClass('modal-active');
-            });
-        }
+        $("#modal-container").click(function () {
+          $(this).addClass("out");
+          $("body").removeClass("modal-active");
+        });
+      }
     </script>
-    <section class="u-align-center u-clearfix u-image u-parallax u-shading u-section-1" id="carousel_3182" data-image-width="909" data-image-height="409">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <h1 class="u-text u-text-default u-text-1 u-txt-white">Iconit Library</h1>
-            <h5 class="u-text u-text-default u-text-2 u-txt-white">Ready Icons for Iconit v2 or later<span style="font-weight: 400;"></span>
-            </h5>
-            <h6 class="u-align-left u-text u-text-default u-text-3 u-txt-white">Iconit is a free automated tool to change PS4 game icons & backgrounds with few clicks utilizing the PS4 FTP payload
-                <br>Developed by <a href="https://twitter.com/OfficialAhmed0" style="color: chartreuse;">@OfficialAhmed0</a>
-            </h6>
-            <div class="u-list u-list-1">
-                <div class="u-repeater u-repeater-1">
-                    <div class="u-align-center u-container-style u-list-item u-repeater-item">
-                        <div class="u-container-layout u-similar-container u-container-layout-1">
-                            <h4 class="u-custom-item u-text u-text-4 u-txt-white">Download Iconit tool for free</h4>
-                            <a href="https://github.com/OfficialAhmed/Iconit-PS4/releases" class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2">Download</a>
-                        </div>
-                    </div>
-                    <div class="u-align-center u-container-style u-list-item u-repeater-item">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <h4 class="u-custom-item u-text u-text-5 u-txt-white">Upload missing icons?</h4>
-                            <a href="https://forms.gle/agKubGcWhMoMPoGV7" class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2">Upload<br></a>
-                        </div>
-                    </div>
-                    <div class="u-align-center u-container-style u-list-item u-repeater-item">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <h4 class="u-custom-item u-text u-text-5 u-txt-white">Do you like what you see?</h4>
-                            <a href="https://www.paypal.com/paypalme/Officialahmed0" class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-3">PayPal<br></a>
-                        </div>
-                    </div>
-                </div>
+    <section
+      class="u-align-center u-clearfix u-image u-parallax u-shading u-section-1"
+      id="carousel_3182"
+      data-image-width="909"
+      data-image-height="409"
+    >
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1 u-txt-white">
+          Iconit Library
+        </h1>
+        <h5 class="u-text u-text-default u-text-2 u-txt-white">
+          Ready Icons for Iconit v2 or later<span
+            style="font-weight: 400"
+          ></span>
+        </h5>
+        <h6 class="u-align-left u-text u-text-default u-text-3 u-txt-white">
+          Iconit is a free automated tool to change PS4 game icons & backgrounds
+          with few clicks utilizing the PS4 FTP payload <br />Developed by
+          <a href="https://twitter.com/OfficialAhmed0" style="color: chartreuse"
+            >@OfficialAhmed0</a
+          >
+        </h6>
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div
+              class="u-align-center u-container-style u-list-item u-repeater-item"
+            >
+              <div
+                class="u-container-layout u-similar-container u-container-layout-1"
+              >
+                <h4 class="u-custom-item u-text u-text-4 u-txt-white">
+                  Download Iconit tool for free
+                </h4>
+                <a
+                  href="https://github.com/OfficialAhmed/Iconit-PS4/releases"
+                  class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2"
+                  >Download</a
+                >
+              </div>
             </div>
+            <div
+              class="u-align-center u-container-style u-list-item u-repeater-item"
+            >
+              <div
+                class="u-container-layout u-similar-container u-container-layout-2"
+              >
+                <h4 class="u-custom-item u-text u-text-5 u-txt-white">
+                  Upload missing icons?
+                </h4>
+                <a
+                  href="https://forms.gle/agKubGcWhMoMPoGV7"
+                  class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2"
+                  >Upload<br
+                /></a>
+              </div>
+            </div>
+            <div
+              class="u-align-center u-container-style u-list-item u-repeater-item"
+            >
+              <div
+                class="u-container-layout u-similar-container u-container-layout-2"
+              >
+                <h4 class="u-custom-item u-text u-text-5 u-txt-white">
+                  Do you like what you see?
+                </h4>
+                <a
+                  href="https://www.paypal.com/paypalme/Officialahmed0"
+                  class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-3"
+                  >PayPal<br
+                /></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section class="u-clearfix u-section-2" id="sec-66c3">
-
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-            <div class="u-list u-list-1">
-                <div class="u-repeater u-repeater-1">
-
-                    <div style="left:20%" class="u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round" data-animation-name="slideIn" data-animation-duration="1000" data-animation-direction="Down">
-                        <div>
-                            <label class="u-text u-text-4">Style</label>
-                            <select id="iconType" onchange="getImages('typeChange', true)" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-29">
-                                <option value="3d" selected>3D / Circler</option>
-                                <option value="ps5">PS5</option>
-                                <option value="cover">Cover</option>
-                                <option value="qz">Qz</option>
-                                <option value="qznow">Qz_now</option>
-                                <option value="homebrew">Homebrew</option>
-                                <option value="system">System</option>
-                            </select>
-                            <p class="u-text-5" style="font-size: large; font-weight: bold;">Total icons: <span id="iconCounter">None</span> | displayed icons: <span id="iconInfoDisplay">All</span></p>
-                            <p class="u-text-5" style="font-size: large; font-weight: bold;"></p>
-                        </div>
-                    </div>
-
-                    <div class="u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round" data-animation-name="slideIn" data-animation-duration="1000" data-animation-direction="Down">
-                        <div>
-                            <label class="u-text u-text-4">Search</label>
-                            <input id="searchInput" onchange="getImages('search', true)" type="text" placeholder="search a game..." class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-29">
-                        </div>
-                    </div>
-                </div>
-
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div
+              style="left: 20%"
+              class="u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round"
+              data-animation-name="slideIn"
+              data-animation-duration="1000"
+              data-animation-direction="Down"
+            >
+              <div>
+                <label class="u-text u-text-4">Style</label>
+                <select
+                  id="iconType"
+                  onchange="getImages('typeChange', true)"
+                  class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-29"
+                >
+                  <option value="3d" selected>3D / Circler</option>
+                  <option value="ps5">PS5</option>
+                  <option value="cover">Cover</option>
+                  <option value="qz">Qz</option>
+                  <option value="qznow">Qz_now</option>
+                  <option value="squircle">Squircle</option>
+                  <option value="homebrew">Homebrew</option>
+                  <option value="system">System</option>
+                </select>
+                <p class="u-text-5" style="font-size: large; font-weight: bold">
+                  Total icons: <span id="iconCounter">None</span> | displayed
+                  icons: <span id="iconInfoDisplay">All</span>
+                </p>
+                <p
+                  class="u-text-5"
+                  style="font-size: large; font-weight: bold"
+                ></p>
+              </div>
             </div>
 
-            <div id="iconSection">
-
+            <div
+              class="u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round"
+              data-animation-name="slideIn"
+              data-animation-duration="1000"
+              data-animation-direction="Down"
+            >
+              <div>
+                <label class="u-text u-text-4">Search</label>
+                <input
+                  id="searchInput"
+                  onchange="getImages('search', true)"
+                  type="text"
+                  placeholder="search a game..."
+                  class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-29"
+                />
+              </div>
             </div>
-
-            <button id="loadMore" onclick="getImages()" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">Load
-                More icons
-            </button>
-
-            <!-- contributors section -->
-            <div class="u-text u-text-4 popup" onclick="showPopup()">Contributors
-                <span class="popuptext" id="namesPopup">
-                </span>
-            </div>
-
-            <p class="u-text u-text-5">
-                More Icons will be added regulerly. I do not own all of the icons but they are free to use thanks to the contributors. If you share icons that aren't available in this website your name will be automatically added to the contributors list.
-            </p>
+          </div>
         </div>
-    </section>
-    <span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; right: 45px; bottom: 50px; background-image: none; color: rgb(255, 255, 255) !important; display: block;" class="u-back-to-top u-border-2 u-border-grey-75 u-file-icon u-icon u-icon-circle u-opacity u-opacity-95 u-palette-1-base u-spacing-0"
-        data-href="#">
-        <img src="game icon images/8926922.png" alt="" data-original-src="game icon images/8926922.png"
-            data-color="rgb(255, 255, 255)"></span>
-</body>
 
+        <div id="iconSection"></div>
+
+        <button
+          id="loadMore"
+          onclick="getImages()"
+          class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3"
+        >
+          Load More icons
+        </button>
+
+        <!-- contributors section -->
+        <div class="u-text u-text-4 popup" onclick="showPopup()">
+          Contributors
+          <span class="popuptext" id="namesPopup"> </span>
+        </div>
+
+        <p class="u-text u-text-5">
+          More Icons will be added regulerly. I do not own all of the icons but
+          they are free to use thanks to the contributors. If you share icons
+          that aren't available in this website your name will be automatically
+          added to the contributors list.
+        </p>
+      </div>
+    </section>
+    <span
+      style="
+        height: 64px;
+        width: 64px;
+        margin-left: 0px;
+        margin-right: auto;
+        margin-top: 0px;
+        right: 45px;
+        bottom: 50px;
+        background-image: none;
+        color: rgb(255, 255, 255) !important;
+        display: block;
+      "
+      class="u-back-to-top u-border-2 u-border-grey-75 u-file-icon u-icon u-icon-circle u-opacity u-opacity-95 u-palette-1-base u-spacing-0"
+      data-href="#"
+    >
+      <img
+        src="game icon images/8926922.png"
+        alt=""
+        data-original-src="game icon images/8926922.png"
+        data-color="rgb(255, 255, 255)"
+    /></span>
+  </body>
 </html>
