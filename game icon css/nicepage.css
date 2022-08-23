@@ -2697,35 +2697,6 @@ p {
   opacity: 0.33;
 }
 
-.u-dialog {
-  display: flex;
-  position: relative;
-}
-
-.u-dialog-close-button {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: inherit;
-  background: transparent;
-  padding: 0;
-  outline: none;
-  cursor: pointer;
-}
-
-.u-dialog-block {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 100001;
-}
-
-.u-dialog-block:not(.u-dialog-open) {
-  display: none;
-}
-
 .u-accordion-link {
   font-size: inherit;
   font-family: inherit;
