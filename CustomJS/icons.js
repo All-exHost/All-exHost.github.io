@@ -15,6 +15,7 @@ function getImages(by = "", reset = false) {
     renderedIcons = 0;
     document.getElementById("loadMore").removeAttribute("disabled");
   }
+
   const iconType = document.getElementById("iconType").value;
   const imagesFolder = "images/icons/" + iconType;
 
@@ -46,7 +47,7 @@ function getImages(by = "", reset = false) {
     input = document.getElementById("searchInput").value;
     if (input.length >= 2 && input.length <= 12) {
       if (input === "lapy") {
-        alert("Big Shout-out to my friend LAPY");
+        alert("Big Shoutout to my friend LAPY");
       }
       // handle abbreviations when searching
       const abbr = fetchJSON("Data/Icons_page/abbreviations.json");
