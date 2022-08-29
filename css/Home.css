@@ -11,7 +11,7 @@ div.container-fluid img {
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.25)
     ),
-    url("../images/default-wallpaper.jpg");
+    url("../images/webhosts/default-wallpaper.jpg");
   background-position: 50% 50%;
 }
 
@@ -451,7 +451,7 @@ div.container-fluid img {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url("images/Night_King.jpg");
+    url("images/webhosts/Night_King.jpg");
   background-position: 50% 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -513,7 +513,7 @@ div.container-fluid img {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("images/Prb_755_V3.jpg");
+    url("webhosts/Prb_755_V3.jpg");
   background-position: 50% 5.38%;
   margin-top: 0;
   margin-bottom: 0;
@@ -1622,7 +1622,7 @@ div.container-fluid img {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../images/default-wallpaper.jpg");
+    url("../images/webhosts/default-wallpaper.jpg");
   background-position: 50% 50%;
 }
 

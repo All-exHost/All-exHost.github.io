@@ -10,27 +10,30 @@
     <meta name="description" content="" />
     <meta name="page_type" content="np-template-header-footer-from-plugin" />
     <title>Download PS4 Game Icons</title>
-    <link rel="stylesheet" href="game icon css/nicepage.css" media="screen" />
-    <link rel="stylesheet" href="game icon css/index.css" media="screen" />
-    <link rel="stylesheet" href="game icon css/popup.css" media="screen" />
+    <link rel="stylesheet" href="CSS/icons_gen_style.css" media="screen" />
+    <link rel="stylesheet" href="CSS/icons.css" media="screen" />
+    <link rel="stylesheet" href="CSS/popup.css" media="screen" />
     <script
       class="u-script"
       type="text/javascript"
-      src="game icon js/jquery.js"
+      src="jquery/jquery.js"
       defer=""
     ></script>
     <script
       class="u-script"
       type="text/javascript"
-      src="game icon js/nicepage.js"
+      src="CustomJS/icons_gen.js"
       defer=""
     ></script>
     <script
       class="u-script"
       type="text/javascript"
-      src="game icon js/customJS.js"
+      src="CustomJS/customJS_icons.js"
     ></script>
-    <meta name="generator" content="Nicepage 4.2.6, nicepage.com" />
+    <meta
+      name="PS4 Icons"
+      content="Download Icons for Iconit, @OfficialAhmed0"
+    />
     <link
       id="u-theme-google-font"
       rel="stylesheet"
@@ -54,7 +57,7 @@
       });
 
       function showPopup() {
-        let contributors = fetchJSON("game icon data/contributors.json")[
+        let contributors = fetchJSON("Data/Icons_page/contributors.json")[
           "name"
         ];
         var result = "";
@@ -101,54 +104,40 @@
         </h6>
         <div class="u-list u-list-1">
           <div class="u-repeater u-repeater-1">
-            <div
-              class="u-align-center u-container-style u-list-item u-repeater-item"
+            <h4 class="u-custom-item u-text u-text-4 u-txt-white">
+              Download Iconit tool for free
+            </h4>
+            <a
+              href="https://github.com/OfficialAhmed/Iconit-PS4/releases"
+              class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2"
+              >Download</a
             >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-1"
-              >
-                <h4 class="u-custom-item u-text u-text-4 u-txt-white">
-                  Download Iconit tool for free
-                </h4>
-                <a
-                  href="https://github.com/OfficialAhmed/Iconit-PS4/releases"
-                  class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2"
-                  >Download</a
-                >
-              </div>
-            </div>
-            <div
-              class="u-align-center u-container-style u-list-item u-repeater-item"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-2"
-              >
-                <h4 class="u-custom-item u-text u-text-5 u-txt-white">
-                  Upload missing icons?
-                </h4>
-                <a
-                  href="https://forms.gle/agKubGcWhMoMPoGV7"
-                  class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2"
-                  >Upload<br
-                /></a>
-              </div>
-            </div>
-            <div
-              class="u-align-center u-container-style u-list-item u-repeater-item"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-2"
-              >
-                <h4 class="u-custom-item u-text u-text-5 u-txt-white">
-                  Do you like what you see?
-                </h4>
-                <a
-                  href="https://www.paypal.com/paypalme/Officialahmed0"
-                  class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-3"
-                  >PayPal<br
-                /></a>
-              </div>
-            </div>
+            <h4 class="u-custom-item u-text u-text-5 u-txt-white">
+              Download Masks
+              <div class="glow">(Soon!)</div>
+            </h4>
+            <a href="#" class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-3">
+              Download
+              <br/>
+            </a>
+
+            <h4 class="u-custom-item u-text u-text-5 u-txt-white">
+              Upload missing icons?
+            </h4>
+            <a
+              href="https://forms.gle/agKubGcWhMoMPoGV7"
+              class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-2"
+              >Upload<br
+            /></a>
+
+            <h4 class="u-custom-item u-text u-text-5 u-txt-white">
+              Do you like what you see?
+            </h4>
+            <a
+              href="https://www.paypal.com/paypalme/Officialahmed0"
+              class="u-border-none u-btn u-btn-round u-button-style u-palette-1-base u-radius-22 u-text-body-alt-color u-btn-3"
+              >PayPal<br
+            /></a>
           </div>
         </div>
       </div>
@@ -165,7 +154,6 @@
               data-animation-direction="Down"
             >
               <div>
-                <label class="u-text u-text-4">Style</label>
                 <select
                   id="iconType"
                   onchange="getImages('typeChange', true)"
@@ -198,7 +186,6 @@
               data-animation-direction="Down"
             >
               <div>
-                <label class="u-text u-text-4">Search</label>
                 <input
                   id="searchInput"
                   onchange="getImages('search', true)"
@@ -252,9 +239,9 @@
       data-href="#"
     >
       <img
-        src="game icon images/8926922.png"
+        src="images/icons/8926922.png"
         alt=""
-        data-original-src="game icon images/8926922.png"
+        data-original-src="images/icons/8926922.png"
         data-color="rgb(255, 255, 255)"
     /></span>
   </body>

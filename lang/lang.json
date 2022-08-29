@@ -5,10 +5,10 @@
         "Menu 2": "جميع مواقع التهكير",
         "Menu 3": "أخر تقييمات المستخدمين",
         "Menu 4": "تحميل ايقونات العاب البلايستيشن",
-        "Menu 5": "جميع التقيمات (قريبآ)",
-        "Menu 6": "المواقع الوهميةوالكاذبة (قريبآ)",
+        "Menu 5": "ماسك للايقونات",
+        "Menu 6": "جميع التقيمات (قريبآ)",
+        "Menu 7": "المواقع الوهميةوالكاذبة (قريبآ)",
         "Language": "اللغة",
-
         "All PS4 ...": "جميع مواقع تهكير بلاي ستيشن ٤ مجمعة في مكان واحد",
         "Choose your fav...": "اختر موقعك المفضل للتهكير, إعرف اي موقع هو الأكثر زيارة من المستخدمين. بإمكانك تقييم المواقع والتعليق عليها كذلك. وتحميل ايقونات العاب البلايستيشن ٤ الان متوفر في القائمة",
         "Do you like ...": "هل أعجبك الموقع؟",
@@ -17,15 +17,11 @@
         "Translated...": "@Officialahmed0 و @shaxawyتمت الترجمة بواسطة",
         "contact": "للتواصل",
         "my contri...": "برامج للبلايستيشن من صنعي",
-
         "top 3": "أفضل ٣ مواقع تهكير",
-
         "xploit hosts": "ــــــــــــــــــــــــــــــــــــــــــــــــــــ",
         "based num visits": "بناءآ على ٤٠۸٦٠ عدد زيارات المستخدمين للموقع في ٢٠/۱۱/٢٠٢۱",
-
         "exp hosts": "مواقع التهكير",
         "filter": ":تصفية المواقع حسب",
-
         "Go1": "بحث",
         "all": "الكل",
         "fw": "تحديث الجهاز",
@@ -35,34 +31,29 @@
         "most viewed": "عدد الزيارة",
         "Go3": "بحث",
         "latest": "تم إضافتها مؤخرا",
-
         "latest reviews": "أخر تقيمات المستخدمين",
         "latest reviews info": "ساعد اللاعبين الجدد معرفة المواقع الافضل والحسن عن الاخرى. انتبه: تقيم الموقع من ناحية استقرار الهاك ممنوع وهذه المعلومة تعتبر خاطئه, الا اذا كانت الثغرة بنفس التحديث فقط. التقييم عن طريق البرامج التي يوفرها او سرعة الموقع والخ",
-
         "review btn": "تقييم / تعليق",
         "show all btn": "قراءة الكل",
-
         "req xploit": "طلب / إرسال موقع تهكير",
         "req xploit info": "اتبحث عن موقع تهكير ولم تجده هنا؟ اطلبة او ارسل رابط الموقع عن طريق زر السهم في الاسفل",
         "req lang": "طلب / تسليم ترجمة للموقع",
         "req lang info": "ترجمة الموقع الى لغة جديدة او تصحيح اخطاء املائية وعبارات خاطئة عن طريق زر السهم في الاسفل",
         "req xploit btn": "طلب / إرسال موقع تهكير",
         "req lang btn": "طلب / تسليم ترجمة للموقع",
-
         "1st release": " تاريخ الإصدار الاول (13/12/2020)",
         "latest release": " تاريخ اخر اصدار (10/4/2022)"
     },
-
     "es": {
         "Menu": "menú",
         "Menu 1": "las 3 primeras exploits",
         "Menu 2": "todos los exploits de PlayStation 4",
         "Menu 3": "últimas opiniones de usuarios",
         "Menu 4": "descargar iconos de ps4",
-        "Menu 5": "todas las reseñas",
-        "Menu 6": "falsas los exploits de PlayStation 4",
+        "Menu 5": "máscara de icono",
+        "Menu 6": "todas las reseñas",
+        "Menu 7": "falsas los exploits de PlayStation 4",
         "Language": "lenguaje",
-
         "All PS4 ...": "todos los exploits de PlayStation 4 en un solo lugar",
         "Choose your fav...": "elije donde se aloja tu exploit favorito y sabes cual es uno de los sitios mas visitados por los usuarios",
         "Do you like ...": "te gusta el sitio web?",
@@ -71,14 +62,11 @@
         "Translated...": "traducido por @Pkato36Ortiz & @Officialahmed0",
         "contact": "contact",
         "my contri...": "mis contribuciones para el PS4",
-
         "top 3": "3 primeros",
         "xploit hosts": "exploits de PlayStation 4",
         "based num visits": "basado en 40860 vistas",
-
         "exp hosts": "exploit de hosts",
         "filter": "filtro de hosts",
-
         "Go1": "búsqueda",
         "all": "todo",
         "fw": "software",
@@ -88,21 +76,16 @@
         "most viewed": "Más visitada",
         "Go3": "búsqueda",
         "latest": "reciente",
-
         "latest reviews": "últimas revisiones",
         "latest reviews info": "",
-
         "review btn": "calificar o revisar",
         "show all btn": "todos",
-
         "req xploit": "requisitos hosts",
         "req xploit info": "lo que necesitas/enviar ps4 exploit hosts",
         "req lang": "enviar lenguaje",
         "req lang info": "traducir web?",
-
         "req xploit btn": "requisitos hosts",
         "req lang btn": "enviar lenguaje",
-
         "1st release": "lanzamiento (Dec 13th, 2020)",
         "latest release": "ultima actualizacion (Apr 10th, 2022)"
     },
@@ -113,7 +96,6 @@
     "ru": {},
     "id": {},
     "tr": {},
-
     "Main Structure": {
         "Menu": "",
         "Menu 1": "",
@@ -122,8 +104,8 @@
         "Menu 4": "",
         "Menu 5": "",
         "Menu 6": "",
+        "Menu 7": "",
         "Language": "",
-
         "All PS4 ...": "",
         "Choose your fav...": "",
         "Do you like ...": "",
@@ -132,14 +114,11 @@
         "Translated...": "",
         "contact": "",
         "my contri...": "",
-
         "top 3": "",
         "xploit hosts": "",
         "based num visits": "",
-
         "exp hosts": "",
         "filter": "",
-
         "Go1": "",
         "all": "",
         "fw": "",
@@ -148,21 +127,17 @@
         "lowest": "",
         "most viewed": "",
         "Go3": "",
-
         "latest": "",
         "latest reviews": "",
         "latest reviews info": "",
-
         "review btn": "",
         "show all btn": "",
-
         "req xploit": "",
         "req xploit info": "",
         "req lang": "",
         "req lang info": "",
         "req xploit btn": "",
         "req lang btn": "",
-
         "1st release": "",
         "latest release": ""
     }

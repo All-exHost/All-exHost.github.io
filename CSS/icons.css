@@ -47,8 +47,34 @@ Custom
       rgb(29, 29, 29),
       rgba(15, 15, 15, 0.74)
     ),
-    url("../game icon images/BGxmb.jpg");
+    url("../images/icons/BGxmb.jpg");
 }
+
+.glow {
+  font-size: 18px;
+  float: right;
+  color: #ecdbba;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 0.6s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ecdbba, 0 0 20px #ecdbba, 0 0 30px #6fe600,
+      0 0 40px #6fe600, 0 0 50px #6fe600, 0 0 60px #6fe600, 0 0 70px #6fe600;
+  }
+  to {
+    text-shadow: 0 0 20px #ecdbba, 0 0 30px #84dd31, 0 0 40px #84dd31,
+      0 0 50px #84dd31, 0 0 60px #84dd31, 0 0 70px #84dd31, 0 0 80px #84dd31;
+  }
+}
+
+/* 
+
+  End of custom CSS
+
+ */
 
 .u-section-1 .u-sheet-1 {
   min-height: 653px;
