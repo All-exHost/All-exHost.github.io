@@ -26,7 +26,7 @@ def Run(iconType):
     contributers = {}
 
     with open(
-        "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\contributors.json",
+        "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\Data\\\Icons_page\contributors.json",
         "r+",
     ) as readFile:
         contributers = json.load(readFile)
@@ -64,7 +64,7 @@ def Run(iconType):
                     edit = edit.replace("_", " ")
 
                 with open(
-                    "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\icons.json",
+                    "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\Data\\Icons_page\\icons.json",
                     "r+",
                 ) as jsonFile:
                     data = json.load(jsonFile)
@@ -87,7 +87,7 @@ def Run(iconType):
                     counter += 1
                 print("Added icon successfully.")
         with open(
-            "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\game icon data\\contributors.json",
+            "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\Data\\\Icons_page\\contributors.json",
             "w+",
         ) as contributionFile:
             json.dump(contributers, contributionFile)
