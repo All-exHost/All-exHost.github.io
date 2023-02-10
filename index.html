@@ -8,6 +8,7 @@
     <title>PlayStaion Kexploit | Home</title>
     <link rel="stylesheet" href="CSS/gen.css" media="screen">
     <link rel="stylesheet" href="CSS/Home.css" media="screen">
+    <link rel="stylesheet" href="CSS/header_style.css" media="screen">
 
     <script class="u-script" type="text/javascript" src="jquery/jquery-1.9.1.min.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="CustomJS/index_gen.js" defer=""></script>
@@ -16,308 +17,121 @@
     <script type="text/javascript" src="CustomJS/fetchReview.js"></script>
     <script type="text/javascript" src="CustomJS/onPageLoad.js"></script>
 
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i">
+    <link id="u-theme-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta name="theme-color" content="#7f93d0">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1990677360387550" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1990677360387550"crossorigin="anonymous"></script>
+    <script>
+        function ChangeCookie() {
+            var selected = document.getElementById("ChangeLanguage").value;
+            window.location.href = "?lang=" + selected;
+            //Change cookie lang to specified language
+            document.cookie = "lang=" + selected;
+            document.getElementById("ChangeLanguage").value = selected
+        }
+    </script>
+
 </head>
 
 <body data-home-page-title="Home" class="u-body u-overlap u-overlap-contrast">
-    <header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header u-header" id="sec-d471">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-
-            <div class="u-border-1 u-border-grey-15 u-expanded-width-xs u-search u-search-right u-search-1">
-                <button style="padding:7px" type="submit" onclick="alert('Not implemented yet')"> >> </button>
-                <input class="u-search-input" type="search" name="search" value="" placeholder="Search exploit host">
-            </div>
-
-
-            <nav class="u-align-left u-menu u-menu-dropdown u-nav-spacing-25  u-menu-1" data-responsive-from="XL">
-                <div class="menu-collapse">
-                    <a class="u-button-style u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7b92"></use>
-                        <label class="translated">Menu:</label>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-7b92" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content">
-                            <g>
-                                <rect y="36" width="302" height="30"></rect>
-                                <rect y="236" width="302" height="30"></rect>
-                                <rect y="136" width="302" height="30"></rect>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-                <div class="u-custom-menu u-nav-container-collapse">
-                    <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-inner-container-layout u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link translated" href="#carousel_d128">
-                                        Top hosts</a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link translated" href="#sec-7d6f">A
-                                        ll hosts
-                                    </a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link translated" href="#sec-fc0d">
-                                        Latest Reviews
-                                    </a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link translated" href="Icons.html">
-                                        PS4 Icons
-                                    </a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link translated" href="Masks.html" >
-                                        PS4 Masks (NEW!)
-                                    </a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link translated">
-                                        (Soon) All Reviews
-                                    </a>
-                                </li>
-                                <hr>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link translated">
-                                        (Soon) Dangerous / Fakehosts
-                                    </a>
-                                </li>
-                            </ul>
-
+    <header class="header-banner" id="i3fg">
+        <div class="container-width" id="ik38">
+            <nav class="menu" id="ifss"></nav>
+            <div class="clearfix"></div>
+            <div class="gjs-row" id="i1ruqy">
+                <div class="gjs-cell" id="ik3534"><label id="iioq4p"></label>
+                    <div id="i8v6c">
+                        <div class="menu"></div>
+                    </div>
+                    <div id="ivz49">
+                        <div class="dropdown_menu"><button type="button" class="dropbtn" id="ifs4i">MENU</button>
+                            <div class="dropdown_menu-content">
+                                <a href="#carousel_d128" class="u-button-style u-nav-link translated">Top hosts</a>
+                                <a href="#sec-7d6f" class="translated">All hosts</a>
+                                <a href="#sec-fc0d" class="translated">Latest Reviews</a>
+                                <a href="Icons.html" class="translated">PS4 Icons</a>
+                                <a href="Masks.html" class="translated">PS4 Masks (NEW!)</a>
+                                <a class="translated">(Soon) All Reviews</a>
+                                <a class="translated">(Soon) Dangerous / Fakehosts</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
                 </div>
 
+                <div class="gjs-cell" id="isqfv4">
+                    <div id="irfe9k"></div>
+                        <div id="immi43">
+                            <select type="text" id="ChangeLanguage" name="ChangeLanguage" class="dropdown" onchange="ChangeCookie()">
+                                <option selected hidden>Language</option>
+                                <option style="color:#47d147" lang="ar" value="ar" id="imygga">العربية</option>
+                                <option style="color:#47d147" lang="en" value="en" id="if4iu3">English</option>
+                                <option style="color:#47d147" lang="es" value="es" id="ixe91s">Español</option>
+                                <option style="color:#ff3333" lang="ur" value="ur" disabled id="imm83w">اردو (soon)</option>
+                                <option style="color:#ff3333" lang="tr" value="tr" disabled id="i1s9hs">Türkçe (soon)</option>
+                                <option style="color:#ff3333" lang="id" value="id" disabled id="itk7sv">Indonesian (soon)</option>
+                                <option style="color:#ff3333" lang="ru" value="ru" disabled id="iu35uo">русский (soon)</option>
+                                <option style="color:#ff3333" lang="pt" value="pt" disabled id="i1tz5m">Português (soon)</option>
+                                <option style="color:#ff3333" lang="de" value="de" disabled id="ia3yeh">Deutsch (soon)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
 
-                <!--
-                        
-            ################################################################
-            ########              Content language                   #######
-            ################################################################
-
-        -->
-                <label class="translated">language:</label>
-                <select id="ChangeLanguage" name="ChangeLanguage" onchange="ChangeCookie();">
-                    <option selected hidden>Language</option>
-                    <option style="color:#47d147" lang="ar" value="ar">العربية</option>
-                    <option style="color:#47d147" lang="en" value="en">English</option>
-                    <option style="color:#47d147" lang="es" value="es">Español</option>
-                    <option style="color:#ff3333" lang="ur" value="ur" disabled>اردو (soon)</option>
-                    <option style="color:#ff3333" lang="tr" value="tr" disabled>Türkçe (soon)</option>
-                    <option style="color:#ff3333" lang="id" value="id" disabled>Indonesian (soon)</option>
-                    <option style="color:#ff3333" lang="ru" value="ru" disabled>русский (soon)</option>
-                    <option style="color:#ff3333" lang="pt" value="pt" disabled>Português (soon)</option>
-                    <option style="color:#ff3333" lang="de" value="de" disabled>Deutsch (soon)</option>
-                </select>
-                <script>
-                    function ChangeCookie() {
-                        var selected = document.getElementById("ChangeLanguage").value;
-                        window.location.href = "?lang=" + selected;
-                        //Change cookie lang to specified language
-                        document.cookie = "lang=" + selected;
-                        document.getElementById("ChangeLanguage").value = selected
-                    }
-                </script>
-
-            </nav>
+            <div class="lead-title" id="izxnd">
+                <h2 class="u-text u-text-1 translated" id="irhn7e">ALL PS4 EXPLOIT HOSTS IN ONE PLACE</h2>
+            </div>
+            <div id="i0wnt"><span id="ipvf9b">Choose your favorite exploit host, Know which one is the most visited by
+                    users. Review them and rate to help other users identify the perfect exploit host to use</span>
+            </div>
+            <p class="translated" id="ird4j">
+                Translated by @OfficialAhmed0
+                <span id="idj0l"><span id="i7cot"></span></span>
+            </p>
+            <div id="iy9do">
+                <div id="inh72"></div>
+                <p class="translated" id="i409w"> Created and managed by @OfficialAhmed0
+                    <span id="iyler">
+                    </span>
+                </p>
+                <div class="gjs-row" id="in3ev">
+                    <div class="gjs-cell" id="iww9m">
+                        <a href="https://www.paypal.com/paypalme/Officialahmed0" id="ikt6m" target="_blank"
+                            title="PayPal" class="paypal-button">PayPal</a>
+                        <a href="https://github.com/OfficialAhmed/" id="iqtai" target="_blank" title="GitHub"
+                            class="paypal-button">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gjs-row" id="i5irzc"></div>
         </div>
     </header>
-    <section class="u-align-center u-clearfix u-image u-shading u-section-1" id="carousel_bad5" data-image-width="1280" data-image-height="800">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <h2 class="u-text u-text-1 translated"> ALL PS4 EXPLOIT HOSTS IN ONE PLACE</h2>
-            <p class="u-text u-text-white u-text-2 translated"> Choose your favorite exploit host, Know which one is the most visited by users. Review them and rate to help other users identify the perfect exploit host to use
-            </p>
-        </div>
-    </section>
-    <section class="u-clearfix u-section-2" id="carousel_9569">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-                <div class="u-layout">
-                    <div class="u-layout-col">
-                        <div class="u-size-30">
-                            <div class="u-layout-col">
-                                <div class="u-align-center u-container-style u-layout-cell u-size-60 u-layout-cell-1">
-                                    <div class="u-container-layout u-container-layout-1">
-                                        <h2 class="u-text u-text-1 translated">
-                                            Do you like what you see?
-                                        </h2>
-                                        <p class="u-text u-text-2 translated">
-                                            Consider donating<br>
-                                        </p>
-                                        <a href="https://www.paypal.com/paypalme/Officialahmed0" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-palette-4-light-2 u-radius-50 u-btn-1">paypal</a>
-                                        <p class="u-text u-text-3 translated"> Created and managed by @OfficialAhmed0
-                                            <span style="font-size: 1.125rem;">
-                                                <p class="u-text u-text-5 translated"> 
-                                                    Translated by @OfficialAhmed0<span style="font-size: 1.125rem;">
-                                                <span style="font-size: 1.1875rem;"></span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="u-size-30">
-                            <div class="u-layout-row">
-                                <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                                    <div class="u-container-layout u-container-layout-2">
-                                        <h5 class="u-text u-text-4 translated"> Contact</h5>
-                                        <a href="https://twitter.com/OfficialAhmed0" class="u-active-none u-border-2 u-border-active-palette-2-dark-1 u-border-hover-palette-2-base u-border-palette-1-base u-btn u-button-style u-hover-none u-none u-text-custom-color-1 u-text-hover-palette-4-light-1 u-btn-2"
-                                            target="_blank">@OfficialAhmed0</a>
-                                    </div>
-                                </div>
-                                <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-3">
-                                    <div class="u-container-layout u-valign-top u-container-layout-3">
-                                        <h5 class="u-text u-text-5 translated"> My PS4 contributions</h5>
-                                        <a href="https://github.com/OfficialAhmed/" class="u-active-none u-border-2 u-border-active-palette-2-dark-1 u-border-hover-palette-2-base u-border-palette-1-base u-btn u-button-style u-hover-none u-none u-text-custom-color-1 u-text-hover-palette-4-light-1 u-btn-3">OfficialAhmed</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- <section class="u-clearfix u-color-scheme-u10 u-color-style-multicolor-1 u-image u-shading u-section-3" id="carousel_d128" data-image-width="1280" data-image-height="800">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <h1 class="u-custom-font u-text u-text-1 translated">
-                Top 3
-            </h1>
-            <h2 class="u-custom-font u-text u-text-2 translated">
-                Ps4 exploit hosts
-            </h2>
-            <h4 class="u-text u-text-3 translated">
-                Based on 40,860 visitors as of Nov 20th, 2021
-            </h4>
-        </div>
-    </section>
 
     
 
-  ###########  The top 3 exploits section starting point  #####################
-
-
-
-    <section class="u-clearfix u-white u-section-4" id="carousel_a71d">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <div id="carousel-8d1d" data-interval="7250" data-u-ride="carousel" class="u-carousel u-carousel-duration-500 u-carousel-right u-expanded-width u-slider u-slider-1">
-                <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
-                    <li data-u-target="#carousel-8d1d" class="u-active u-active-custom-color-1 u-hover-palette-1-base u-palette-1-light-3 u-shape-circle" data-u-slide-to="0" style="width: 10px; height: 10px;"></li>
-                    <li data-u-target="#carousel-8d1d" class="u-active-custom-color-1 u-hover-palette-1-base u-palette-1-light-3 u-shape-circle" data-u-slide-to="1" style="width: 10px; height: 10px;"></li>
-                    <li data-u-target="#carousel-8d1d" class="u-active-custom-color-1 u-hover-palette-1-base u-palette-1-light-3 u-shape-circle" data-u-slide-to="2" style="width: 10px; height: 10px;"></li>
-                </ol>
-
-                <div class="u-carousel-inner" role="listbox">
-                    <div class="container-fluid u-active u-carousel-item u-container-style u-shading u-slide">
-                        <div id="host0image">
-                     
-                            <img> tag here. The image will be renderd auto as page loading finishes
-                     
-                        </div>
-                        <div id="host0">
-                      
-                            host0 section
-                            host1 section
-                            host2 section
-                            These sections gonna be generated by a function when the page finishes loading 
-                            by reading the JSON and sorting them accordingly 
-                  
-                        </div>
-                    </div>
-                    <div class="container-fluid u-carousel-item u-container-style u-shading u-slide">
-                        <div id="host1image">
-                        
-                            <img> tag here. The image will be renderd auto as page loading finishes
-                     
-                        </div>
-                        <div id="host1">
-                      
-                            host1 section = 2nd top host
-                      
-                        </div>
-                    </div>
-                    <div class="container-fluid u-carousel-item u-container-style u-shading u-slide">
-                        <div id="host2image">
-                       
-                            <img> tag here. The image will be renderd auto as page loading finishes
-                        
-                        </div>
-                        <div id="host2">
-                       
-                            host2 section = 3nd top host 
-                        
-                        </div>
-                    </div>
-                </div>
-                <a class="u-absolute-vcenter u-border-2 u-border-custom-color-1 u-border-hover-palette-4-light-1 u-carousel-control u-carousel-control-prev u-icon-circle u-spacing-14 u-text-custom-color-1 u-text-hover-palette-4-light-1 u-carousel-control-1" href="#carousel-8d1d"
-                    role="button" data-u-slide="prev">
-                    <span aria-hidden="true">
-                        <svg viewBox="0 0 451.847 451.847">
-                            <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                        </svg>
-                    </span>
-                    <span class="sr-only">
-                        <svg viewBox="0 0 451.847 451.847">
-                            <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                        </svg>
-                    </span>
-                </a>
-                <a class="u-absolute-vcenter u-border-2 u-border-custom-color-1 u-border-hover-palette-4-light-1 u-carousel-control u-carousel-control-next u-icon-circle u-spacing-14 u-text-custom-color-1 u-text-hover-palette-4-light-1 u-carousel-control-2" href="#carousel-8d1d"
-                    role="button" data-u-slide="next">
-                    <span aria-hidden="true">
-                        <svg viewBox="0 0 451.846 451.847">
-                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                        </svg>
-                    </span>
-                    <span class="sr-only">
-                        <svg viewBox="0 0 451.846 451.847">
-                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                        </svg>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-   
-
-  ###########  The top 3 exploits section ends here  #####################
-
-  ###########  exploit hosts section starts here  #####################
-
-  -->
-    <section class="u-align-center u-clearfix u-image u-shading u-section-5" id="sec-7d6f" data-image-width="1280" data-image-height="800">
+    <section class="u-align-center u-clearfix u-image u-shading u-section-5" id="sec-7d6f" data-image-width="1280"
+        data-image-height="800">
         <div class="u-clearfix u-sheet u-sheet-1">
             <h1 class="u-text u-text-1 translated"><span class="u-icon "></span>exploit hosts
             </h1>
             <p class="u-text u-text-default u-text-2 translated">Filter by:</p>
             <div class="u-expanded-width u-layout-grid u-list u-list-1">
                 <div class="u-repeater u-repeater-1">
-                    <div class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
+                    <div
+                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
                         <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <button onclick="filterHosts('sortByFW')" class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
+                            <button onclick="filterHosts('sortByFW')"
+                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
                                 Go
                             </button>
-                            <select id="fwSelection" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
+                            <select id="fwSelection"
+                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
                                 <option value="All" class="translated" default>All</option>
                                 <option value="1.76">1.76</option>
                                 <option value="4.05">4.05</option>
@@ -333,12 +147,15 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                         </div>
                     </div>
 
-                    <div class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
+                    <div
+                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
                         <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <button onclick="filterHosts('sortByMostVisited')" class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
+                            <button onclick="filterHosts('sortByMostVisited')"
+                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
                                 &nbsp;Go
                             </button>
-                            <select id="sortByMostVisited" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
+                            <select id="sortByMostVisited"
+                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
                                 <option class="translated" value="Highest" default>Highest</option>
                                 <option class="translated" value="Lowest">Lowest</option>
                             </select>
@@ -346,12 +163,15 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                         </div>
                     </div>
 
-                    <div class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
+                    <div
+                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
                         <div class="u-container-layout u-similar-container u-container-layout-3">
-                            <button onclick="filterHosts('sortByRecent')" class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
+                            <button onclick="filterHosts('sortByRecent')"
+                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
                                 &nbsp;Go
                             </button>
-                            <select id="sortByRecent" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
+                            <select id="sortByRecent"
+                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -385,12 +205,17 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
 
     <section class="u-clearfix u-white u-section-reviews" id="sec-fc0d">
-        <div class="u-container-style u-expanded-width u-group u-image u-shading u-shape-rectangle u-image-reviews" data-image-width="1280" data-image-height="800">
+        <div class="u-container-style u-expanded-width u-group u-image u-shading u-shape-rectangle u-image-reviews"
+            data-image-width="1280" data-image-height="800">
             <div class="u-container-layout u-container-layout-reviews">
                 <h2 class="u-text u-text-default u-text-white u-text-reviews translated">Latest Reviews by visitors</h2>
-                <p class="u-align-left u-text u-text-2 translated">Help users pick the right exploit host by rating it.&nbsp;
-                    <br>Disclaimer: There is no such host that will lead to faster exploitation. They all depend on how stable the webkit is. Reviewing a exploit host in terms of how many KP it triggers is wrong, especially if they're based on the same
-                    webkit. Comparing two hosts should be in terms of how many payloads it offers, it's design, responsiveness, availability etc.
+                <p class="u-align-left u-text u-text-2 translated">Help users pick the right exploit host by rating
+                    it.&nbsp;
+                    <br>Disclaimer: There is no such host that will lead to faster exploitation. They all depend on how
+                    stable the webkit is. Reviewing a exploit host in terms of how many KP it triggers is wrong,
+                    especially if they're based on the same
+                    webkit. Comparing two hosts should be in terms of how many payloads it offers, it's design,
+                    responsiveness, availability etc.
                 </p>
             </div>
         </div>
@@ -404,7 +229,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 
             </div>
         </div>
-        <a href="https://forms.gle/hKDBvjfezAxoLf7P6" class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-4 translated" target="_blank">Rate/Review&nbsp;&nbsp;
+        <a href="https://forms.gle/hKDBvjfezAxoLf7P6"
+            class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-4 translated"
+            target="_blank">Rate/Review&nbsp;&nbsp;
             <span class="u-icon u-icon-4">
                 <svg class="u-svg-content" viewBox="0 0 20 21" style="width: 1em; height: 1em;">
                     <desc></desc>
@@ -423,7 +250,8 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                 <img>
             </span>
         </a>
-        <a onclick="alert('not implemented (soon)')" class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-5 translated">
+        <a onclick="alert('not implemented (soon)')"
+            class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-5 translated">
             Show All
             <span class="u-icon u-icon-5">
                 <svg class="u-svg-content" viewBox="0 0 16 16" style="width: 1em; height: 1em;">
@@ -458,12 +286,14 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                             <div class="u-layout-col">
                                 <div class="u-size-40">
                                     <div class="u-layout-row">
-                                        <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
+                                        <div
+                                            class="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
                                             <div class="u-container-layout u-valign-bottom u-container-layout-1">
                                                 <div class="u-container-style u-expanded-width u-group u-group-1">
                                                     <div class="u-container-layout">
                                                         <h2 class="u-text u-text-1 translated">Request exploit host</h2>
-                                                        <p class="u-text u-text-2 translated">Are you looking for a exploit host that isn't available here?
+                                                        <p class="u-text u-text-2 translated">Are you looking for a
+                                                            exploit host that isn't available here?
                                                             <br>Submit it via the button below
                                                         </p>
                                                     </div>
@@ -471,7 +301,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                                                 <div class="u-container-style u-expanded-width u-group u-group-2">
                                                     <div class="u-container-layout">
                                                         <h2 class="u-text u-text-3 translated">Request a language</h2>
-                                                        <p class="u-text u-text-4 translated">Translate the website with different language by Requesting a language via the button below
+                                                        <p class="u-text u-text-4 translated">Translate the website with
+                                                            different language by Requesting a language via the button
+                                                            below
                                                         </p>
                                                     </div>
                                                 </div>
@@ -484,11 +316,14 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                                         <!-- 
                       Request exploit host segment
                      -->
-                                        <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2">
+                                        <div
+                                            class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2">
                                             <div class="u-container-layout u-valign-middle u-container-layout-4">
                                                 <h5 class="u-align-center u-text u-text-5 translated">Request webhost
                                                 </h5>
-                                                <span class="u-icon u-icon-circle u-text-black u-icon-1" data-href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScE7ntGavb9TGXhR9oAFweVX1vDqAhjbOnFtOqJfpH-uP6kXg/viewform?usp=send_form" data-target="_blank">
+                                                <span class="u-icon u-icon-circle u-text-black u-icon-1"
+                                                    data-href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScE7ntGavb9TGXhR9oAFweVX1vDqAhjbOnFtOqJfpH-uP6kXg/viewform?usp=send_form"
+                                                    data-target="_blank">
                                                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice">
                                                         <use xlink:href="#svg-c888">
                                                         </use>
@@ -510,13 +345,17 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                                             </div>
                                         </div>
 
-                                        <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-grey-5 u-layout-cell u-size-30 u-layout-cell-3">
+                                        <div
+                                            class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-grey-5 u-layout-cell u-size-30 u-layout-cell-3">
                                             <!-- 
                         Request language segment
                      -->
                                             <div class="u-container-layout u-container-layout-5">
-                                                <h5 class="u-align-center-xl u-text u-text-6 translated">request language
-                                                </h5><span class="u-icon u-icon-circle u-text-black u-icon-2" data-href="https://docs.google.com/forms/d/e/1FAIpQLSeOuPcP9mEDhfFO12TfkiQkF4BbMh_QMs7MOhy3dcCWP6zemQ/viewform" data-target="_blank">
+                                                <h5 class="u-align-center-xl u-text u-text-6 translated">request
+                                                    language
+                                                </h5><span class="u-icon u-icon-circle u-text-black u-icon-2"
+                                                    data-href="https://docs.google.com/forms/d/e/1FAIpQLSeOuPcP9mEDhfFO12TfkiQkF4BbMh_QMs7MOhy3dcCWP6zemQ/viewform"
+                                                    data-target="_blank">
                                                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice">
                                                         <use xlink:href="#svg-c888"></use>
                                                     </svg>
@@ -542,7 +381,8 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                         </div>
                         <div class="u-size-26 u-size-60-md">
                             <div class="u-layout-row">
-                                <div class="u-container-style u-image u-layout-cell u-right-cell u-size-60 u-image-1" data-image-width="1600" data-image-height="1155">
+                                <div class="u-container-style u-image u-layout-cell u-right-cell u-size-60 u-image-1"
+                                    data-image-width="1600" data-image-height="1155">
                                     <div class="u-container-layout u-valign-bottom u-container-layout-6"></div>
                                 </div>
                             </div>
@@ -561,14 +401,15 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                 <p class="translated">Published (Dec 13th, 2020)</p>
                 <p class="translated">Latest Update (Aug 28th, 2022)</p>
                 <a class="mid_host" href="https://info.flagcounter.com/NYna">
-                    <img src="https://s04.flagcounter.com/count2/NYna/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" loading=lazy>
+                    <img src="https://s04.flagcounter.com/count2/NYna/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
+                        alt="Flag Counter" border="0" loading=lazy>
                 </a>
             </div>
             <div class="container mid_host">
                 <a href="https://info.flagcounter.com/hSCW"></a>
             </div>
 
-    
+
         </div>
     </footer>
 </body>
