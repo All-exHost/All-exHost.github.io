@@ -16,11 +16,6 @@ body {
     color: #ffffff;
     font-family: Helvetica, serif;
     font-weight: 100;
-    background-image: url("/images/bg-gr-v.png");
-    background-attachment: scroll, scroll;
-    background-position: left top, center center;
-    background-repeat: repeat-y, no-repeat;
-    background-size: contain, cover;
 }
 
 .container-width {
@@ -41,7 +36,7 @@ body {
 }
 
 #izxnd {
-    margin: 150px 0px 12px 0px;
+    margin: 220px 0px 12px 0px;
 }
 
 #irhn7e {
@@ -64,14 +59,13 @@ body {
     margin: 0px 0px 64px 0px;
 }
 
+
 #i3fg {
-    background-repeat: repeat-y, round;
-    background-position: left top, center top;
-    background-attachment: scroll, scroll;
-    background-size: contain, auto;
     background-image: url("/images/bg-gr-v.png");
-    padding: 0px 0px 0px 0px;
-}
+    background-size: cover;
+    position: relative;
+  }
+  
 
 #ipvf9b {
     text-shadow: 1px 0 2px black;
@@ -108,7 +102,7 @@ body {
     font-size: 16px;
     border: none;
     border-radius: 4px;
-    background-color: #f9f9f9;
+    background-color: #4CAF50;
 }
 
 .dropdown-content a {
@@ -122,53 +116,11 @@ body {
     background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropdown-button {
-    background-color: #3e8e41;
-}
 
 #immi43 {
     float: right;
 }
 
-#imygga {
-    color: #47d147;
-}
-
-#if4iu3 {
-    color: #47d147;
-}
-
-#ixe91s {
-    color: #47d147;
-}
-
-#imm83w {
-    color: #ff3333;
-}
-
-#i1s9hs {
-    color: #ff3333;
-}
-
-#itk7sv {
-    color: #ff3333;
-}
-
-#iu35uo {
-    color: #ff3333;
-}
-
-#i1tz5m {
-    color: #ff3333;
-}
-
-#ia3yeh {
-    color: #ff3333;
-}
 
 #i5irzc {
     padding: 10px 10px 32px 10px;
@@ -241,7 +193,6 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
