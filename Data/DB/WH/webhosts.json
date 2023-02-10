@@ -167,7 +167,7 @@
         "link": "http://psgo.gitee.io/",
         "owner": null,
         "visits": 226,
-        "service": "Run",
+        "service": "Stop",
         "firmware_support": ["5.05", "6.72", "7.02"]
     },
     "Santa atmo": {
@@ -323,5 +323,13 @@
         "visits": 1,
         "service": "Run",
         "firmware_support": ["9.00"]
+    },
+    "Issa x modz": {
+        "name": "Issa x modz",
+        "link": "https://issaxmodzjb.github.io/PS4/",
+        "owner": "https://twitter.com/issaxmodz",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": ["6.72", "7.02", "7.50", "7.55", "9.00"]
     }
 }
