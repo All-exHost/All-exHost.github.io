@@ -4,6 +4,10 @@ This is more or less a compilation of all PS4 exploit hosts. You can submit one 
 
 # Update notes
 
-* Game icon downloader (v1.23) changelog:
+* Game icon downloader (v1.30) changelog:
 
-> Added masks page to download Iconit supported masks
+> Fixed Bugs
+
+> Added more masks
+
+> Fixed main menu not showing (masks)
