@@ -4,6 +4,10 @@ This is more or less a compilation of all PS4 exploit hosts. You can submit one 
 
 # Update notes
 
+* ADDED PS5 EXPLOIT WEBHOSTS
+  
+* ADDED GERMAN LANGUAGE
+  
 * Game icon downloader (v1.30) changelog:
 
 > Fixed Bugs
