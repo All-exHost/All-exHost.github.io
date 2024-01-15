@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     changeLang = true;
   } else {
     // Page just opened => check cookies for language
-    langFromCookie = readCookie("lang");
+    let langFromCookie = readCookie("lang");
     if (langFromCookie) {
       lang = langFromCookie;
       changeLang = true;
