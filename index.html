@@ -16,6 +16,7 @@
     <script type="text/javascript" src="CustomJS/fetchWH.js"></script>
     <script type="text/javascript" src="CustomJS/fetchReview.js"></script>
     <script type="text/javascript" src="CustomJS/onPageLoad.js"></script>
+    <script type="text/javascript" src="CustomJS/translate.js"></script>
 
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
@@ -27,7 +28,8 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1990677360387550"crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1990677360387550"
+        crossorigin="anonymous"></script>
     <script>
         function ChangeCookie() {
             var selected = document.getElementById("ChangeLanguage").value;
@@ -42,7 +44,7 @@
 </head>
 
 <body data-home-page-title="Home" class="u-body u-overlap u-overlap-contrast">
-    <header class="header-banner" id="i3fg">
+    <header class="header-banner" id="i3fg" style="background-image: url('/images/controller-background.png');">
         <div class="container-width" id="ik38">
             <nav class="menu" id="ifss"></nav>
             <div class="clearfix"></div>
@@ -67,28 +69,35 @@
 
                 <div class="gjs-cell" id="isqfv4">
                     <div id="irfe9k"></div>
-                        <div id="immi43">
-                            <select type="text" id="ChangeLanguage" name="ChangeLanguage" class="dropdown" onchange="ChangeCookie()">
-                                <option class="translated" selected hidden>Language</option>
-                                <option lang="ar" value="ar" id="imygga">العربية</option>
-                                <option lang="en" value="en" id="if4iu3">English</option>
-                                <option lang="es" value="es" id="ixe91s">Español</option>
-                                <option style="color:#ff3333" lang="ur" value="ur" disabled id="imm83w">اردو (soon)</option>
-                                <option style="color:#ff3333" lang="tr" value="tr" disabled id="i1s9hs">Türkçe (soon)</option>
-                                <option style="color:#ff3333" lang="id" value="id" disabled id="itk7sv">Indonesian (soon)</option>
-                                <option style="color:#ff3333" lang="ru" value="ru" disabled id="iu35uo">русский (soon)</option>
-                                <option style="color:#ff3333" lang="pt" value="pt" disabled id="i1tz5m">Português (soon)</option>
-                                <option style="color:#ff3333" lang="de" value="de" disabled id="ia3yeh">Deutsch (soon)</option>
-                            </select>
-                        </div>
+                    <div id="immi43">
+                        <select type="text" id="ChangeLanguage" name="ChangeLanguage" class="dropdown"
+                            onchange="ChangeCookie()">
+                            <option class="translated" selected hidden>Language</option>
+                            <option lang="ar" value="ar" id="imygga">العربية</option>
+                            <option lang="en" value="en" id="if4iu3">English</option>
+                            <option lang="es" value="es" id="ixe91s">Español</option>
+                            <option style="color:#ff3333" lang="ur" value="ur" disabled id="imm83w">اردو (soon)</option>
+                            <option style="color:#ff3333" lang="tr" value="tr" disabled id="i1s9hs">Türkçe (soon)
+                            </option>
+                            <option style="color:#ff3333" lang="id" value="id" disabled id="itk7sv">Indonesian (soon)
+                            </option>
+                            <option style="color:#ff3333" lang="ru" value="ru" disabled id="iu35uo">русский (soon)
+                            </option>
+                            <option style="color:#ff3333" lang="pt" value="pt" disabled id="i1tz5m">Português (soon)
+                            </option>
+                            <option style="color:#ff3333" lang="de" value="de" disabled id="ia3yeh">Deutsch (soon)
+                            </option>
+                        </select>
                     </div>
                 </div>
+            </div>
 
             <div class="lead-title" id="izxnd">
-                <h2 class="u-text u-text-1 translated" id="irhn7e">ALL PS4 EXPLOIT HOSTS IN ONE PLACE</h2>
+                <h2 class="u-text u-text-1 translated" id="irhn7e">PS4 & PS5 EXPLOIT HOSTS IN ONE PLACE</h2>
             </div>
             <div id="i0wnt">
-                <span class="translated" id="ipvf9b">Choose your favorite exploit host, Know which one is the most visited by
+                <span class="translated" id="ipvf9b">Choose your favorite exploit host, Know which one is the most
+                    visited by
                     users. Review them and rate to help other users identify the perfect exploit host to use
                 </span>
             </div>
@@ -115,78 +124,66 @@
         </div>
     </header>
 
-    
 
-    <section class="u-align-center u-clearfix u-image u-shading u-section-5" id="sec-7d6f" data-image-width="1280"
-        data-image-height="800">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <h1 class="u-text u-text-1 translated"><span class="u-icon "></span>exploit hosts
+
+    <section class="u-align-center u-clearfix u-image u-shading u-section-5" id="sec-7d6f">
+        <div class="u-clearfix u-sheet u-sheet-2">
+
+            <h1 class="u-text u-text-1 translated">
+                <span class="u-icon">Exploit webhosts
+                    <div style="padding: 10px; margin: 10px;">
+                        <select id="CurrentConsole" onchange="generateFWs()" class="dropdown">
+                            <option class="" value="PS4" default>PS4</option>
+                            <option class="" value="PS5">PS5</option>
+                        </select>
+                    </div>
+                </span>
             </h1>
-            <p class="u-text u-text-default u-text-2 translated">Filter by:</p>
-            <div class="u-expanded-width u-layout-grid u-list u-list-1">
-                <div class="u-repeater u-repeater-1">
-                    <div
-                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <button onclick="filterHosts('sortByFW')"
-                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
-                                Go
-                            </button>
-                            <select id="fwSelection"
-                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
-                                <option value="All" class="translated" default>All</option>
-                                <option value="1.76">1.76</option>
-                                <option value="4.05">4.05</option>
-                                <option value="4.55">4.55</option>
-                                <option value="5.05">5.05 / 5.07</option>
-                                <option value="6.72">6.72</option>
-                                <option value="7.02">7.01 / 7.02</option>
-                                <option value="7.50">7.50 / 7.51</option>
-                                <option value="7.55">7.55</option>
-                                <option value="9.00">9.00</option>
-                            </select>
-                            <h6 class="u-custom-item u-text u-text-default u-text-4 translated">Firmware</h6>
-                        </div>
-                    </div>
 
-                    <div
-                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <button onclick="filterHosts('sortByMostVisited')"
-                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
-                                &nbsp;Go
-                            </button>
-                            <select id="sortByMostVisited"
-                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
-                                <option class="translated" value="Highest" default>Highest</option>
-                                <option class="translated" value="Lowest">Lowest</option>
-                            </select>
-                            <h6 class="u-custom-item u-text u-text-default u-text-4 translated">Most visited</h6>
-                        </div>
-                    </div>
-
-                    <div
-                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
-                        <div class="u-container-layout u-similar-container u-container-layout-3">
-                            <button onclick="filterHosts('sortByRecent')"
-                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
-                                &nbsp;Go
-                            </button>
-                            <select id="sortByRecent"
-                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9" selected>9</option>
-                            </select>
-                            <h6 class="u-custom-item u-text u-text-default u-text-5 translated">Recently added</h6>
-                        </div>
-                    </div>
+            <div class="u-repeater u-repeater-1">
+                <div class="u-container-layout">
+                    <select onchange="filterHosts('sortByFW',document.getElementById('CurrentConsole').value)"
+                        id="fwSelection" class="dropdown">
+                        <option value="All" class="translated" default>All</option>
+                        <option value="1.76">1.76</option>
+                        <option value="4.05">4.05</option>
+                        <option value="4.55">4.55</option>
+                        <option value="5.05">5.05 / 5.07</option>
+                        <option value="6.72">6.72</option>
+                        <option value="7.02">7.01 / 7.02</option>
+                        <option value="7.50">7.50 / 7.51</option>
+                        <option value="7.55">7.55</option>
+                        <option value="9.00">9.00</option>
+                    </select>
+                    <h6 class="u-custom-item u-text u-text-default u-text-4 translated">Firmware</h6>
                 </div>
+
+                <div class="u-container-layout">
+                    <select id="sortByMostVisited"
+                        onchange="filterHosts('sortByMostVisited', document.getElementById('CurrentConsole').value)"
+                        class="dropdown">
+                        <option class="translated" value="Highest" default>Highest</option>
+                        <option class="translated" value="Lowest">Lowest</option>
+                    </select>
+                    <h6 class="u-custom-item u-text u-text-default u-text-4 translated">Most visited</h6>
+                </div>
+
+                <div class="u-container-layout">
+                    <select id="sortByRecent"
+                        onchange="filterHosts('sortByRecent', document.getElementById('CurrentConsole').value)"
+                        class="dropdown">
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                        <option value="6">5</option>
+                        <option value="7">6</option>
+                        <option value="8">7</option>
+                        <option value="9">8</option>
+                        <option value="10" selected>9</option>
+                    </select>
+                    <h6 class="u-custom-item u-text u-text-default u-text-5 translated">Recently added</h6>
+                </div>
+
             </div>
         </div>
     </section>
@@ -401,7 +398,7 @@
             <div class="mid_host">
                 <br>
                 <p class="translated">Published (Dec 13th, 2020)</p>
-                <p class="translated">Latest Update (July 21st, 2023)</p>
+                <p class="translated">Latest Update (Jan 15th, 2024)</p>
                 <a class="mid_host" href="https://info.flagcounter.com/NYna">
                     <img src="https://s04.flagcounter.com/count2/NYna/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
                         alt="Flag Counter" loading=lazy>

@@ -6,13 +6,9 @@ div.container-fluid img {
 }
 
 .u-section-1 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0.25)
-    ),
-    url("../images/webhosts/default-wallpaper.jpg");
-  background-position: 50% 50%;
+      rgba(0, 0, 0, 0.25))
 }
 
 .u-section-1 .u-sheet-1 {
@@ -86,6 +82,7 @@ div.container-fluid img {
     width: 340px;
   }
 }
+
 .u-section-2 .u-sheet-1 {
   min-height: 621px;
 }
@@ -271,13 +268,12 @@ div.container-fluid img {
     min-height: 438px;
   }
 }
+
 .u-section-3 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0.35)
-    ),
-    url("https://www.bleepstatic.com/images/news/Microsoft/windows-11/leak/new-default-wallpaper.jpg");
+      rgba(0, 0, 0, 0.35)),
+    url("../images/bg-gr-v.png");
   background-position: 50% 50%;
 }
 
@@ -361,6 +357,7 @@ div.container-fluid img {
     font-size: 2.25rem;
   }
 }
+
 .u-section-4 {
   background-image: none;
 }
@@ -385,11 +382,9 @@ div.container-fluid img {
 }
 
 .u-section-4 .u-image-1 {
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)
-  );
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4));
   background-position: 50% 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -446,11 +441,9 @@ div.container-fluid img {
 }
 
 .u-section-4 .u-image-2 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url("images/webhosts/Night_King.jpg");
   background-position: 50% 50%;
   margin-top: 0;
@@ -508,11 +501,9 @@ div.container-fluid img {
 }
 
 .u-section-4 .u-image-3 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
+      rgba(0, 0, 0, 0.4)),
     url("webhosts/Prb_755_V3.jpg");
   background-position: 50% 5.38%;
   margin-top: 0;
@@ -778,14 +769,12 @@ div.container-fluid img {
     margin-right: 0;
   }
 }
+
 .u-section-5 {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("https://www.bleepstatic.com/images/news/Microsoft/windows-11/leak/new-default-wallpaper.jpg");
+  background-image: linear-gradient(to left, #27133d, #2e103c, #39103c);
   background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust the background size property as needed */
 }
 
 .u-section-5 .u-sheet-1 {
@@ -960,6 +949,7 @@ div.container-fluid img {
     grid-auto-columns: 100%;
   }
 }
+
 .u-section-6 {
   background-image: none;
 }
@@ -1379,6 +1369,7 @@ div.container-fluid img {
     margin-left: initial;
   }
 }
+
 .u-section-7 .u-sheet-1 {
   min-height: 704px;
 }
@@ -1617,11 +1608,9 @@ div.container-fluid img {
   height: auto;
   margin-top: 15px;
   margin-bottom: 0;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
+      rgba(0, 0, 0, 0.4)),
     url("../images/webhosts/default-wallpaper.jpg");
   background-position: 50% 50%;
 }
@@ -2014,8 +2003,7 @@ div.container-fluid img {
     background-position;
 }
 
-.u-section-reviews
-  .u-list-item-reviews.u-list-item-reviews.u-list-item-reviews:hover {
+.u-section-reviews .u-list-item-reviews.u-list-item-reviews.u-list-item-reviews:hover {
   box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
 }
 

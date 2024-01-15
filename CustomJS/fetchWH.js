@@ -1,4 +1,4 @@
-function fetchJSON(path = "Data/DB/WH/webhosts.json") {
+function fetchJSON(path) {
   // if path isnt passed then fetch webhosts
   var xmlFile = new XMLHttpRequest();
   xmlFile.open("get", path, false);
@@ -21,8 +21,8 @@ function sortArrayByKey(array, key, order) {
   });
 }
 
-function InnerSection(filterType) {
-  let data = fetchJSON();
+function InnerSection(filterType, currentConsole) {
+  let data = fetchJSON("Data/DB/WH/webhosts_"+ currentConsole +".json");
   var hostsInfo = [];
   var generatedInnerSection = "";
 
@@ -103,7 +103,6 @@ function InnerSection(filterType) {
       </div>`;
     }
   }
-
   return generatedInnerSection;
 }
 
@@ -115,7 +114,7 @@ function generateRatingLink(hostname) {
   return link;
 }
 
-function filterHosts(filterType) {
+function filterHosts(filterType, selectedConsole) {
   var OutterSectionFirst = `
     <section class="u-clearfix u-grey-10 u-section-6" id="sec-7550">
       <div class="u-clearfix u-sheet u-sheet-1">
@@ -130,5 +129,24 @@ function filterHosts(filterType) {
     </section>`;
 
   document.getElementById("WH_section").innerHTML =
-    OutterSectionFirst + InnerSection(filterType) + OutterSectionEnd;
+    OutterSectionFirst + InnerSection(filterType, selectedConsole) + OutterSectionEnd;
+}
+
+function generateFWs() {
+  // Generate available exploitable console firmwares 
+  
+  let SelectedConsole = document.getElementById("CurrentConsole").value
+  let Fws = document.getElementById("fwSelection")
+  let NewFws = fetchJSON("Data/DB/WH/firmwares.json")[SelectedConsole]
+
+  Fws.innerHTML = ""
+  for (var i = 0; i < NewFws.length; i++) {
+    var option = document.createElement("option")
+    option.text = NewFws[i]
+    option.value = NewFws[i]
+    Fws.add(option)
+  };
+
+  filterHosts('sortByRecent', document.getElementById('CurrentConsole').value)
+
 }
