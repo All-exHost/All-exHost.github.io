@@ -1,4 +1,7 @@
-import os, json, time
+import os
+import json
+import time
+
 
 def timestamp(increment):
     # unique number to avoid clashes in icons naming
@@ -20,13 +23,14 @@ def timestamp(increment):
 
     return result[2:]  # remove century
 
+
 def Run(iconType):
     path = os.getcwd() + "\\game icon formater"
     files = os.listdir(path)
     contributers = {}
 
     with open(
-        "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\Data\\\Icons_page\contributors.json",
+        "U:\\GitHub\\All-exHost.github.io\\Data\\Icons_page\\contributors.json",
         "r+",
     ) as readFile:
         contributers = json.load(readFile)
@@ -42,11 +46,10 @@ def Run(iconType):
                     edit = edit.replace(" _ qz-now", "")
                 if " _ ps-qz" in edit:
                     edit = edit.replace(" _ ps-qz", "")
-                    
 
                 if " - " in file:
                     # include contributor name if foundw
-                    contributor_name = edit[edit.find(" - ") + 3 :]
+                    contributor_name = edit[edit.find(" - ") + 3:]
                     if contributor_name not in contributers["name"]:
                         contributers["name"].append(contributor_name)
                     edit = edit[: edit.find(" - ")]
@@ -56,15 +59,14 @@ def Run(iconType):
                     edit = edit.replace("'", "")
                 if "~" in file:
                     edit = edit.replace("~", "")
-                
-                
+
                 if "_s" in file:
                     edit = edit.replace("_s", "s")
                 elif "_" in file:
                     edit = edit.replace("_", " ")
 
                 with open(
-                    "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\Data\\Icons_page\\icons.json",
+                    "U:\\GitHub\\All-exHost.github.io\\Data\\Icons_page\\icons.json",
                     "r+",
                 ) as jsonFile:
                     data = json.load(jsonFile)
@@ -87,10 +89,11 @@ def Run(iconType):
                     counter += 1
                 print("Added icon successfully.")
         with open(
-            "c:\\Users\\ahmed\\Documents\\GitHub\\All-exHost.github.io\\Data\\\Icons_page\\contributors.json",
+            "U:\\GitHub\\All-exHost.github.io\\Data\\\Icons_page\\contributors.json",
             "w+",
         ) as contributionFile:
             json.dump(contributers, contributionFile)
         os.startfile(path + "\\json.txt")
+
 
 Run(input("Enter the image type(3d/cover/ps5/homebrew/system/qz/qznow/squircle): ").lower())
