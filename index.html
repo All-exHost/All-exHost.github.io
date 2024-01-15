@@ -16,6 +16,7 @@
     <script type="text/javascript" src="CustomJS/fetchWH.js"></script>
     <script type="text/javascript" src="CustomJS/fetchReview.js"></script>
     <script type="text/javascript" src="CustomJS/onPageLoad.js"></script>
+    <script type="text/javascript" src="CustomJS/translate.js"></script>
 
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
@@ -27,7 +28,8 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1990677360387550"crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1990677360387550"
+        crossorigin="anonymous"></script>
     <script>
         function ChangeCookie() {
             var selected = document.getElementById("ChangeLanguage").value;
@@ -41,67 +43,70 @@
 
 </head>
 
-<body data-home-page-title="Home" class="u-body u-overlap u-overlap-contrast">
-    <header class="header-banner" id="i3fg">
+<body data-home-page-title="Home" class="u-body u-overlap"
+    style="background-image: linear-gradient(to left, #27133d, #2e103c, #39103c)">
+    <header class="header-banner" id="i3fg" style="background-image: url('/images/controller-background.png');">
         <div class="container-width" id="ik38">
-            <nav class="menu" id="ifss"></nav>
-            <div class="clearfix"></div>
             <div class="gjs-row" id="i1ruqy">
                 <div class="gjs-cell" id="ik3534"><label id="iioq4p"></label>
                     <div id="i8v6c">
                         <div class="menu"></div>
                     </div>
                     <div id="ivz49">
-                        <div class="dropdown_menu"><button type="button" class="dropbtn translated" id="ifs4i">MENU</button>
+                        <div class="dropdown_menu">
+                            <button type="button" class="dropbtn" id="ifs4i">MENU</button>
                             <div class="dropdown_menu-content">
-                                <a href="#sec-7d6f" class="translated">All hosts</a>
-                                <a href="#sec-fc0d" class="translated">Latest Reviews</a>
-                                <a href="Icons.html" class="translated">PS4 Icons</a>
-                                <a href="Masks.html" class="translated">PS4 Masks (NEW!)</a>
-                                <a class="translated">(Soon) All Reviews</a>
-                                <a class="translated">(Soon) Dangerous / Fakehosts</a>
+                                <a href="#sec-7d6f" id="menu_all_hosts">All hosts</a>
+                                <a href="#sec-fc0d" id="menu_latest_reviews">Latest Reviews</a>
+                                <a href="Icons.html" id="menu_ps4_icons">PS4 Icons</a>
+                                <a href="Masks.html" id="menu_ps4_masks">PS4 Masks (NEW!)</a>
+                                <a id="menu_all_ratings">(Soon) All Reviews</a>
+                                <a id="menu_fake_hosts">(Soon) Dangerous / Fakehosts</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="gjs-cell" id="isqfv4">
-                    <div id="irfe9k"></div>
-                        <div id="immi43">
-                            <select type="text" id="ChangeLanguage" name="ChangeLanguage" class="dropdown" onchange="ChangeCookie()">
-                                <option class="translated" selected hidden>Language</option>
-                                <option lang="ar" value="ar" id="imygga">العربية</option>
-                                <option lang="en" value="en" id="if4iu3">English</option>
-                                <option lang="es" value="es" id="ixe91s">Español</option>
-                                <option style="color:#ff3333" lang="ur" value="ur" disabled id="imm83w">اردو (soon)</option>
-                                <option style="color:#ff3333" lang="tr" value="tr" disabled id="i1s9hs">Türkçe (soon)</option>
-                                <option style="color:#ff3333" lang="id" value="id" disabled id="itk7sv">Indonesian (soon)</option>
-                                <option style="color:#ff3333" lang="ru" value="ru" disabled id="iu35uo">русский (soon)</option>
-                                <option style="color:#ff3333" lang="pt" value="pt" disabled id="i1tz5m">Português (soon)</option>
-                                <option style="color:#ff3333" lang="de" value="de" disabled id="ia3yeh">Deutsch (soon)</option>
-                            </select>
-                        </div>
+                    <div id="immi43">
+                        <select type="text" id="ChangeLanguage" name="ChangeLanguage" class="dropdown"
+                            onchange="ChangeCookie()">
+                            <option class="Langauge" id="language" selected hidden>Language</option>
+                            <option lang="ar" value="ar" id="imygga">العربية</option>
+                            <option lang="en" value="en" id="if4iu3">English</option>
+                            <option lang="es" value="es" id="ixe91s">Español</option>
+                            <option lang="de" value="de" id="ia3yeh">Deutsch</option>
+                            <option style="color:#ff3333" lang="ur" value="ur" disabled id="imm83w">اردو (soon)</option>
+                            <option style="color:#ff3333" lang="tr" value="tr" disabled id="i1s9hs">Türkçe (soon)
+                            </option>
+                            <option style="color:#ff3333" lang="id" value="id" disabled id="itk7sv">Indonesian (soon)
+                            </option>
+                            <option style="color:#ff3333" lang="ru" value="ru" disabled id="iu35uo">русский (soon)
+                            </option>
+                            <option style="color:#ff3333" lang="pt" value="pt" disabled id="i1tz5m">Português (soon)
+                            </option>
+                        </select>
                     </div>
                 </div>
+            </div>
 
             <div class="lead-title" id="izxnd">
-                <h2 class="u-text u-text-1 translated" id="irhn7e">ALL PS4 EXPLOIT HOSTS IN ONE PLACE</h2>
+                <h2 class="u-text u-text-1" id="irhn7e">PS4 & PS5 EXPLOIT HOSTS IN ONE PLACE</h2>
             </div>
+
             <div id="i0wnt">
-                <span class="translated" id="ipvf9b">Choose your favorite exploit host, Know which one is the most visited by
+                <span id="ipvf9b">Choose your favorite exploit host, Know which one is the most
+                    visited by
                     users. Review them and rate to help other users identify the perfect exploit host to use
                 </span>
             </div>
-            <p class="translated" id="ird4j">
+
+            <p id="ird4j">
                 Translated by @OfficialAhmed0
-                <span id="idj0l"><span id="i7cot"></span></span>
             </p>
+
             <div id="iy9do">
-                <div id="inh72"></div>
-                <p class="translated" id="i409w"> Created and managed by @OfficialAhmed0
-                    <span id="iyler">
-                    </span>
-                </p>
+                <p id="i409w"> Created and managed by @OfficialAhmed0</p>
                 <div class="gjs-row" id="in3ev">
                     <div class="gjs-cell" id="iww9m">
                         <a href="https://www.paypal.com/paypalme/Officialahmed0" id="ikt6m" target="_blank"
@@ -111,83 +116,69 @@
                     </div>
                 </div>
             </div>
-            <div class="gjs-row" id="i5irzc"></div>
+
         </div>
     </header>
 
-    
 
-    <section class="u-align-center u-clearfix u-image u-shading u-section-5" id="sec-7d6f" data-image-width="1280"
-        data-image-height="800">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <h1 class="u-text u-text-1 translated"><span class="u-icon "></span>exploit hosts
+    <section class="u-align-center u-shading u-section-5" id="sec-7d6f">
+        <div class="u-clearfix u-sheet u-sheet-2">
+
+            <h1 class="u-text u-text-1">
+                <span class="u-icon" style="margin: 10px;" id="webhosts_filter_title">Exploit webhosts</span>
+                <div style="padding: 10px; margin: 10px;">
+                    <select id="CurrentConsole" class="dropdown" onchange="generateFWs()">
+                        <option value="PS4" default>PS4</option>
+                        <option value="PS5">PS5</option>
+                    </select>
+                </div>
             </h1>
-            <p class="u-text u-text-default u-text-2 translated">Filter by:</p>
-            <div class="u-expanded-width u-layout-grid u-list u-list-1">
-                <div class="u-repeater u-repeater-1">
-                    <div
-                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <button onclick="filterHosts('sortByFW')"
-                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
-                                Go
-                            </button>
-                            <select id="fwSelection"
-                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
-                                <option value="All" class="translated" default>All</option>
-                                <option value="1.76">1.76</option>
-                                <option value="4.05">4.05</option>
-                                <option value="4.55">4.55</option>
-                                <option value="5.05">5.05 / 5.07</option>
-                                <option value="6.72">6.72</option>
-                                <option value="7.02">7.01 / 7.02</option>
-                                <option value="7.50">7.50 / 7.51</option>
-                                <option value="7.55">7.55</option>
-                                <option value="9.00">9.00</option>
-                            </select>
-                            <h6 class="u-custom-item u-text u-text-default u-text-4 translated">Firmware</h6>
-                        </div>
-                    </div>
 
-                    <div
-                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
-                        <div class="u-container-layout u-similar-container u-container-layout-2">
-                            <button onclick="filterHosts('sortByMostVisited')"
-                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
-                                &nbsp;Go
-                            </button>
-                            <select id="sortByMostVisited"
-                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
-                                <option class="translated" value="Highest" default>Highest</option>
-                                <option class="translated" value="Lowest">Lowest</option>
-                            </select>
-                            <h6 class="u-custom-item u-text u-text-default u-text-4 translated">Most visited</h6>
-                        </div>
-                    </div>
+            <div class="u-repeater u-repeater-1">
+                <div>
+                    <select onchange="filterHosts('sortByFW',document.getElementById('CurrentConsole').value)"
+                        id="fwSelection" class="dropdown">
+                        <option value="All" id="all_fw" default>All</option>
+                        <option value="1.76">1.76</option>
+                        <option value="4.05">4.05</option>
+                        <option value="4.55">4.55</option>
+                        <option value="5.05">5.05 / 5.07</option>
+                        <option value="6.72">6.72</option>
+                        <option value="7.02">7.01 / 7.02</option>
+                        <option value="7.50">7.50 / 7.51</option>
+                        <option value="7.55">7.55</option>
+                        <option value="9.00">9.00</option>
+                    </select>
+                    <h6 class="u-custom-item u-text u-text-default u-text-4" id="fw">Firmware</h6>
+                </div>
 
-                    <div
-                        class="u-border-2 u-border-white u-container-style u-list-item u-radius-11 u-repeater-item u-shape-round">
-                        <div class="u-container-layout u-similar-container u-container-layout-3">
-                            <button onclick="filterHosts('sortByRecent')"
-                                class="translated u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-3">
-                                &nbsp;Go
-                            </button>
-                            <select id="sortByRecent"
-                                class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-4">
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9" selected>9</option>
-                            </select>
-                            <h6 class="u-custom-item u-text u-text-default u-text-5 translated">Recently added</h6>
-                        </div>
-                    </div>
+                <div>
+                    <select id="sortByMostVisited"
+                        onchange="filterHosts('sortByMostVisited', document.getElementById('CurrentConsole').value)"
+                        class="dropdown">
+                        <option id="most_visit_high" value="Highest" default>Highest</option>
+                        <option id="most_visit_low" value="Lowest">Lowest</option>
+                    </select>
+                    <h6 class="u-custom-item u-text u-text-default u-text-4" id="most_visit">Most visited</h6>
+                </div>
+
+                <div>
+                    <select id="sortByRecent"
+                        onchange="filterHosts('sortByRecent', document.getElementById('CurrentConsole').value)"
+                        class="dropdown">
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                        <option value="6">5</option>
+                        <option value="7">6</option>
+                        <option value="8">7</option>
+                        <option value="9">8</option>
+                        <option value="10" selected>9</option>
+                    </select>
+                    <h6 class="u-custom-item u-text u-text-default u-text-5" id="recent_addition">Recently added</h6>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -206,12 +197,15 @@
   -->
 
 
-    <section class="u-clearfix u-white u-section-reviews" id="sec-fc0d">
+    <section class="u-clearfix u-white u-section-reviews"
+        style="background-image: linear-gradient(to left, #27133d, #2e103c, #39103c);">
         <div class="u-container-style u-expanded-width u-group u-image u-shading u-shape-rectangle u-image-reviews"
             data-image-width="1280" data-image-height="800">
             <div class="u-container-layout u-container-layout-reviews">
-                <h2 class="u-text u-text-default u-text-white u-text-reviews translated">Latest Reviews by visitors</h2>
-                <p class="u-align-left u-text u-text-2 translated">Help users pick the right exploit host by rating
+                <h2 class="u-text u-text-default u-text-white u-text-reviews" id="latest_reviews_title">Latest Reviews
+                    by visitors</h2>
+                <p class="u-align-left u-text u-text-2" id="latest_reviews_subtitle">Help users pick the right exploit
+                    host by rating
                     it.&nbsp;
                     <br>Disclaimer: There is no such host that will lead to faster exploitation. They all depend on how
                     stable the webkit is. Reviewing a exploit host in terms of how many KP it triggers is wrong,
@@ -221,19 +215,20 @@
                 </p>
             </div>
         </div>
+
         <div class="u-list u-list-reviews">
             <!--
 
-          Latest Reviews generated by fetchReview.js
+            Latest Reviews generated by fetchReview.js
 
-        -->
-            <div id="Reviews_section" class="u-repeater u-repeater-reviews">
+            -->
+            <div id="Reviews_section" class="u-repeater u-repeater-reviews" >
 
             </div>
         </div>
         <a href="https://forms.gle/hKDBvjfezAxoLf7P6"
-            class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-4 translated"
-            target="_blank">Rate/Review&nbsp;&nbsp;
+            class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-4"
+            target="_blank" id="review_btn">Rate/Review&nbsp;&nbsp;
             <span class="u-icon u-icon-4">
                 <svg class="u-svg-content" viewBox="0 0 20 21" style="width: 1em; height: 1em;">
                     <desc></desc>
@@ -253,7 +248,8 @@
             </span>
         </a>
         <a onclick="alert('not implemented (soon)')"
-            class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-5 translated">
+            class="u-border-2 u-border-palette-3-dark-reviews u-btn u-btn-round u-button-style u-hover-palette-3-light-2 u-palette-3-base u-radius-30 u-text-palette-3-dark-2 u-btn-5"
+            id="show_all_reviews_btn">
             Show All
             <span class="u-icon u-icon-5">
                 <svg class="u-svg-content" viewBox="0 0 16 16" style="width: 1em; height: 1em;">
@@ -279,7 +275,7 @@
     Request host / language section
   
   -->
-    <section class="u-align-center u-clearfix u-section-7" id="carousel_4ec1">
+    <section class="u-align-center u-clearfix u-section-7" id="carousel_4ec1" style="color: white;">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
                 <div class="u-gutter-0 u-layout">
@@ -293,8 +289,10 @@
                                             <div class="u-container-layout u-valign-bottom u-container-layout-1">
                                                 <div class="u-container-style u-expanded-width u-group u-group-1">
                                                     <div class="u-container-layout">
-                                                        <h2 class="u-text u-text-1 translated">Request exploit host</h2>
-                                                        <p class="u-text u-text-2 translated">Are you looking for a
+                                                        <h2 class="u-text u-text-1" id="req_xploit">Request exploit host
+                                                        </h2>
+                                                        <p class="u-text u-text-2" id="req_xploit_info">Are you looking
+                                                            for a
                                                             exploit host that isn't available here?
                                                             <br>Submit it via the button below
                                                         </p>
@@ -302,8 +300,10 @@
                                                 </div>
                                                 <div class="u-container-style u-expanded-width u-group u-group-2">
                                                     <div class="u-container-layout">
-                                                        <h2 class="u-text u-text-3 translated">Request a language</h2>
-                                                        <p class="u-text u-text-4 translated">Translate the website with
+                                                        <h2 class="u-text u-text-3" id="req_lang">Request a language
+                                                        </h2>
+                                                        <p class="u-text u-text-4" id="req_lang_info">Translate the
+                                                            website with
                                                             different language by Requesting a language via the button
                                                             below
                                                         </p>
@@ -314,48 +314,52 @@
                                     </div>
                                 </div>
                                 <div class="u-size-20">
+
                                     <div class="u-layout-row">
                                         <!-- 
-                      Request exploit host segment
-                     -->
+                                            Request exploit host segment
+                                            -->
                                         <div
                                             class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2">
+
                                             <div class="u-container-layout u-valign-middle u-container-layout-4">
-                                                <h5 class="u-align-center u-text u-text-5 translated">Request webhost
+                                                <h5 id="req_xploit_btn" class="u-align-center u-text u-text-5">Request
+                                                    webhost
                                                 </h5>
+                                                
                                                 <span class="u-icon u-icon-circle u-text-black u-icon-1"
                                                     data-href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScE7ntGavb9TGXhR9oAFweVX1vDqAhjbOnFtOqJfpH-uP6kXg/viewform?usp=send_form"
                                                     data-target="_blank">
-                                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice">
-                                                        <use xlink:href="#svg-c888">
-                                                        </use>
-                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                                                            xml:space="preserve" class="u-svg-content"
-                                                            viewBox="0 0 512 512" x="0px" y="0px" id="svg-c888"
-                                                            style="enable-background:new 0 0 512 512;">
+                                                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                                        xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512"
+                                                        x="0px" y="0px" id="svg-c888"
+                                                        style="enable-background:new 0 0 512 512;">
+                                                        <g>
                                                             <g>
-                                                                <g>
-                                                                    <path
-                                                                        d="M508.875,248.458l-160-160c-4.167-4.167-10.917-4.167-15.083,0c-4.167,4.167-4.167,10.917,0,15.083l141.792,141.792    H10.667C4.771,245.333,0,250.104,0,256s4.771,10.667,10.667,10.667h464.917L333.792,408.458c-4.167,4.167-4.167,10.917,0,15.083    c2.083,2.083,4.813,3.125,7.542,3.125c2.729,0,5.458-1.042,7.542-3.125l160-160C513.042,259.375,513.042,252.625,508.875,248.458z    ">
-                                                                    </path>
-                                                                </g>
+                                                                <path
+                                                                    d="M508.875,248.458l-160-160c-4.167-4.167-10.917-4.167-15.083,0c-4.167,4.167-4.167,10.917,0,15.083l141.792,141.792    H10.667C4.771,245.333,0,250.104,0,256s4.771,10.667,10.667,10.667h464.917L333.792,408.458c-4.167,4.167-4.167,10.917,0,15.083    c2.083,2.083,4.813,3.125,7.542,3.125c2.729,0,5.458-1.042,7.542-3.125l160-160C513.042,259.375,513.042,252.625,508.875,248.458z    ">
+                                                                </path>
                                                             </g>
-                                                        </svg>
+                                                        </g>
+                                                    </svg>
+
                                                     </svg>
                                                 </span>
-                                            </div>
-                                        </div>
 
+                                            </div>
+                                            
+                                        </div>
+                                        
                                         <div
-                                            class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-grey-5 u-layout-cell u-size-30 u-layout-cell-3">
-                                            <!-- 
-                        Request language segment
-                     -->
+                                        class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2">
+                                            
                                             <div class="u-container-layout u-container-layout-5">
-                                                <h5 class="u-align-center-xl u-text u-text-6 translated">request
-                                                    language
-                                                </h5><span class="u-icon u-icon-circle u-text-black u-icon-2"
+                                                <h5 id="req_lang_btn" class="u-align-center-xl u-text u-text-6">
+                                                    Request Language
+                                                </h5>
+                                                
+                                                <span class="u-icon u-icon-circle u-text-black u-icon-2"
                                                     data-href="https://docs.google.com/forms/d/e/1FAIpQLSeOuPcP9mEDhfFO12TfkiQkF4BbMh_QMs7MOhy3dcCWP6zemQ/viewform"
                                                     data-target="_blank">
                                                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice">
@@ -375,6 +379,7 @@
                                                         </g>
                                                     </svg>
                                                 </span>
+
                                             </div>
                                         </div>
                                     </div>
@@ -396,12 +401,12 @@
     </section>
 
 
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-b163">
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" style="background-image: linear-gradient(to left, #27133d, #2e103c, #39103c)" id="sec-b163">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="mid_host">
                 <br>
-                <p class="translated">Published (Dec 13th, 2020)</p>
-                <p class="translated">Latest Update (July 21st, 2023)</p>
+                <p id="first_release">Published (Dec 13th, 2020)</p>
+                <p id="latest_release">Latest Update (Jan 15th, 2024)</p>
                 <a class="mid_host" href="https://info.flagcounter.com/NYna">
                     <img src="https://s04.flagcounter.com/count2/NYna/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
                         alt="Flag Counter" loading=lazy>

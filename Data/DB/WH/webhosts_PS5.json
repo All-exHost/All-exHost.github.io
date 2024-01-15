@@ -1,0 +1,68 @@
+{
+    "Specter webhost": {
+        "name": "Specter webhost",
+        "link": "https://es7in1.site/ps5/specter/index.html",
+        "owner": "https://twitter.com/SpecterDev",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "3.xx",
+            "4.xx"
+        ]
+    },
+    "Sleirsgoevy webhost": {
+        "name": "Sleirsgoevy webhost",
+        "link": "https://sleirsgoevy.github.io/ps4jb2/ps5-403/",
+        "owner": "https://twitter.com/sleirsgoevy",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "4.03"
+        ]
+    },
+    "Zecoxao webhost": {
+        "name": "Zecoxao webhost",
+        "link": "https://zecoxao.github.io/ps5jb/",
+        "owner": "https://twitter.com/notnotzecoxao",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "3.xx",
+            "4.xx"
+        ]
+    },
+    "Nazky": {
+        "name": "Nazky",
+        "link": "https://es7in1.site/ps5/nazky/index.html",
+        "owner": "https://twitter.com/NazkyYT",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "3.xx",
+            "4.xx"
+        ]
+    },
+    "Idlesauce": {
+        "name": "Idlesauce",
+        "link": "https://ps5jb.pages.dev/",
+        "owner": "https://twitter.com/",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "3.xx",
+            "4.xx"
+        ]
+    },
+    "PS5 Macedo": {
+        "name": "PS5 Macedo",
+        "link": "https://ps4macedo.github.io/403sl1/",
+        "owner": "https://twitter.com/Macedo95766776",
+        "visits": 1,
+        "service": "Run",
+        "firmware_support": [
+            "4.03",
+            "4.50"
+        ]
+    }
+
+}

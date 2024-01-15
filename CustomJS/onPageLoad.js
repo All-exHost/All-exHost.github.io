@@ -12,23 +12,12 @@ function readCookie(name) {
   return false;
 }
 
-function translate(data) {
-  let txt = document.getElementsByClassName("translated");
-  var counter = 0;
-
-  for (x in data) {
-    if (counter < txt.length) {
-      txt[counter].innerHTML = data[x];
-      counter++;
-    }
-  }
-}
 
 ////////////////////////////////////////////////////////////////////////////////
 ///       When page finishes rendring elements run desired functions        ///
 ///////////////////////////////////////////////////////////////////////////////
 document.addEventListener("DOMContentLoaded", function () {
-  filterHosts("sortByRecent");
+  filterHosts("sortByRecent", "PS4");
   generatedReviewsSection(true);
 
   ////////////////////////////////////////////////////////
@@ -47,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     changeLang = true;
   } else {
     // Page just opened => check cookies for language
-    langFromCookie = readCookie("lang");
+    let langFromCookie = readCookie("lang");
     if (langFromCookie) {
       lang = langFromCookie;
       changeLang = true;
