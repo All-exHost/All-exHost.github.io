@@ -72,7 +72,7 @@ function InnerSection(filterType, currentConsole) {
     if (hostsInfo[x]["service"] != "Stop") {
       generatedInnerSection +=
         `
-      <div class="u-container-style u-list-item u-repeater-item u-video-cover u-white">
+      <div class="u-container-style u-list-item u-repeater-item u-video-cover" style="color:white">
         <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1" >
           <h3 class="u-text u-text-default u-text-1">` +
         hostsInfo[x]["name"] +

@@ -774,7 +774,8 @@ div.container-fluid img {
   background-image: linear-gradient(to left, #27133d, #2e103c, #39103c);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover; /* Adjust the background size property as needed */
+  background-size: cover;
+  /* Adjust the background size property as needed */
 }
 
 .u-section-5 .u-sheet-1 {
@@ -1603,16 +1604,15 @@ div.container-fluid img {
 }
 
 .u-section-reviews .u-image-reviews {
-  text-align: start;
-  min-height: 397px;
   height: auto;
-  margin-top: 15px;
+  text-align: start;
+  margin-top: 30px;
+  min-height: 397px;
   margin-bottom: 0;
   background-image: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
-    url("../images/webhosts/default-wallpaper.jpg");
-  background-position: 50% 50%;
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../images/controller-background.png");
 }
 
 .u-section-reviews .u-container-layout-reviews {
