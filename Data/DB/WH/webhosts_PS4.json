@@ -249,8 +249,12 @@
         "visits": 126,
         "service": "Run",
         "firmware_support": [
+            "5.05",
+            "6.72",
+            "7.02",
             "7.50",
-            "7.55"
+            "7.55",
+            "9.00"
         ]
     },
     "Karo218": {
@@ -315,16 +319,6 @@
             "9.00"
         ]
     },
-    "Gamer Hack 672": {
-        "name": "Gamer Hacker 672",
-        "link": "https://gamerhack.github.io/ps4jb672/",
-        "owner": null,
-        "visits": 1,
-        "service": "Run",
-        "firmware_support": [
-            "6.72"
-        ]
-    },
     "Hippie": {
         "name": "Hippie",
         "link": "https://hippie68.github.io/",
@@ -371,7 +365,7 @@
     },
     "GamerHack 900": {
         "name": "GamerHack 900",
-        "link": "https://gamerhack.github.io/ps4jb900v2/",
+        "link": "https://gamerhack.github.io/900v3/index.html",
         "owner": null,
         "visits": 1,
         "service": "Run",

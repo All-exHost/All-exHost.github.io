@@ -63,6 +63,17 @@
             "4.03",
             "4.50"
         ]
+    },
+    "GamerHack": {
+        "name": "GamerHack",
+        "link": "https://gamerhack.github.io/ps5jb/index.html",
+        "owner": null,
+        "visits": 126,
+        "service": "Run",
+        "firmware_support": [
+            "3.xx",
+            "4.xx"
+        ]
     }
 
 }

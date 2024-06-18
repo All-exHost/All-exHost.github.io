@@ -61,7 +61,6 @@ function render_slides() {
                     <p class="u-large-text u-text u-text-body-alt-color u-text-variant u-text-2">\
                         '+ slide.desc +'\
                     </p>\
-                    <img class="u-file-icon u-icon u-icon-1" data-href="https://www.paypal.com/paypalme/Officialahmed0" src="images/masks/paypal.png"/>\
                     <img class="u-image u-image-1" src="images/masks/'+slide.title+'.png" />\
                     <a href="Masks.html#PS4_Masks" class="u-border-2 u-border-hover-palette-4-dark-1 u-border-palette-4-light-2 u-btn u-button-style u-hover-white u-btn-1">'+ slide.title+'</a>\
                 </div>\
